@@ -1,17 +1,21 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import { Menu } from "lucide-react";
 import { navLinks } from "@/lib/constants";
 import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "./ui/sheet";
 import { Button } from "./ui/button";
+import { usePathname } from "next/navigation";
+import { AnimatePresence, motion } from "motion/react";
 const NavBar = () => {
+  const pathName = usePathname();
   return (
     <header
-      className={`border-b bg-white top-0 z-[999] sticky px-5 flex justify-between items-center p-1 transition-all duration-300`}
+      className={`bg-white top-0 z-[999] sticky px-5 flex justify-between items-center p-1 transition-all duration-300`}
     >
       <Link href="/" className="">
         <Image
-          src="https://files.oaiusercontent.com/file-KUhJcpx9MkeYLzSs4abCKk?se=2024-12-07T13%3A02%3A12Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3De115eab0-7913-4b50-8ea9-700e2b3eaf1f.webp&sig=zDXMMYKmLHH4SVk2MgnQavthLLEEx6ClPaoIALhNFSs%3D"
+          src="https://tse1.mm.bing.net/th?id=OIG3..6jQXo7stSjshw45zUR5&pid=ImgGn"
           alt="cpn_logo"
           width={50}
           height={50}
@@ -24,10 +28,22 @@ const NavBar = () => {
         {navLinks.map(({ name, path }) => (
           <Link
             key={path}
-            href={`/${path}`}
-            className="flex items-center gap-4 px-3 py-2 rounded-xl text-sm transition-colors duration-200"
+            href={`${path}`}
+            className={`relative flex flex-col items-center px-3 py-2 rounded-xl text-sm transition-colors duration-200 ${
+              path === pathName ? "text-blue-500" : ""
+            }`}
           >
             {name}
+            <AnimatePresence>
+              {path === pathName && (
+                <motion.div
+                  initial={{ opacity: 0, scale: 0 }}
+                  animate={{ opacity: 1, scale: 1.1 }}
+                  transition={{ delay: 0.8 }}
+                  className="top-8 absolute bg-blue-500 rounded-full w-1 h-1"
+                />
+              )}
+            </AnimatePresence>
           </Link>
         ))}
       </nav>
@@ -41,9 +57,9 @@ const NavBar = () => {
         <SheetContent side="top" className="z-[999] flex flex-col">
           <SheetTitle>
             {" "}
-            <Link href="/" className="">
+            <Link href="/" className="relative -top-2">
               <Image
-                src="https://files.oaiusercontent.com/file-KUhJcpx9MkeYLzSs4abCKk?se=2024-12-07T13%3A02%3A12Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3De115eab0-7913-4b50-8ea9-700e2b3eaf1f.webp&sig=zDXMMYKmLHH4SVk2MgnQavthLLEEx6ClPaoIALhNFSs%3D"
+                src="https://tse1.mm.bing.net/th?id=OIG3..6jQXo7stSjshw45zUR5&pid=ImgGn"
                 alt="cpn_logo"
                 width={50}
                 height={50}

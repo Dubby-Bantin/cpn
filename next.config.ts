@@ -7,6 +7,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "files.oaiusercontent.com",
       },
+      {
+        protocol: "https",
+        hostname: "tse1.mm.bing.net",
+      },
     ],
   },
 };

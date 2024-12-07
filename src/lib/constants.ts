@@ -8,9 +8,9 @@ const navLinks = [
 const images = [
   {
     src: "https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&w=6016&h=4016&dpr=1",
-    headerText: "Welcome to Tech School",
+    headerText: "Secure Your Digital Future",
     paragraphText:
-      "Empowering the next generation of tech leaders through innovative education.",
+      "Protect your assets with state-of-the-art cybersecurity solutions designed for the modern threat landscape.",
   },
   {
     src: "https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=6016&h=4016&dpr=1",

@@ -15,7 +15,7 @@ export default function Banner() {
   }, []);
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative flex justify-center items-center w-full h-screen overflow-hidden">
       <div className="z-10 absolute inset-0 bg-black/60" />
 
       <AnimatePresence>
@@ -31,10 +31,10 @@ export default function Banner() {
         />
       </AnimatePresence>
 
-      <div className="z-20 absolute inset-0 flex flex-col justify-center items-center px-4 text-center text-white">
+      <div className="z-20 absolute inset-0 flex flex-col justify-center items-center px-10 text-center text-white">
         <motion.h1
           key={`header-${currentIndex}`}
-          className="mb-4 font-bold text-4xl md:text-6xl"
+          className="md:w-1/2 text-gradient"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
@@ -44,7 +44,7 @@ export default function Banner() {
         </motion.h1>
         <motion.p
           key={`paragraph-${currentIndex}`}
-          className="text-lg md:text-2xl"
+          className="md:w-1/2 font-bold text-md md:text-2xl"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 20 }}
