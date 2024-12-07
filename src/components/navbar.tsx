@@ -11,11 +11,12 @@ const NavBar = () => {
     >
       <Link href="/" className="">
         <Image
-          src="/next.svg"
-          alt="Next.js logo"
-          width={80}
-          height={38}
+          src="https://files.oaiusercontent.com/file-KUhJcpx9MkeYLzSs4abCKk?se=2024-12-07T13%3A02%3A12Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3De115eab0-7913-4b50-8ea9-700e2b3eaf1f.webp&sig=zDXMMYKmLHH4SVk2MgnQavthLLEEx6ClPaoIALhNFSs%3D"
+          alt="cpn_logo"
+          width={50}
+          height={50}
           priority
+          className="rounded-full"
         />
       </Link>
 
@@ -42,11 +43,12 @@ const NavBar = () => {
             {" "}
             <Link href="/" className="">
               <Image
-                src="/next.svg"
-                alt="Next.js logo"
-                width={80}
-                height={38}
+                src="https://files.oaiusercontent.com/file-KUhJcpx9MkeYLzSs4abCKk?se=2024-12-07T13%3A02%3A12Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3De115eab0-7913-4b50-8ea9-700e2b3eaf1f.webp&sig=zDXMMYKmLHH4SVk2MgnQavthLLEEx6ClPaoIALhNFSs%3D"
+                alt="cpn_logo"
+                width={50}
+                height={50}
                 priority
+                className="rounded-full"
               />
             </Link>
           </SheetTitle>

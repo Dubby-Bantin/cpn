@@ -1,15 +1,12 @@
 "use client";
-import { motion, AnimatePresence } from "framer-motion";
-import { useState, useEffect } from "react";
 
-const images = [
-  "https://media.istockphoto.com/id/1419766496/photo/abstract-concepts-of-cybersecurity-technology-and-digital-data-protection-protect-internet.jpg?b=1&s=612x612&w=0&k=20&c=mMG_-IOsy9IOupqSDvEbeqduD-LGZ3bBp1fZ5pXoIwA=",
-  "https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=600",
-  "https://media.istockphoto.com/id/1439425791/photo/digital-technology-software-development-concept-coding-programmer-working-on-laptop-with.jpg?b=1&s=612x612&w=0&k=20&c=HNqkJOBc7L4Y82dHwV8TfmyMCcYfMO99w2fSKr-mTLs=",
-];
+import { images } from "@/lib/constants";
+import { motion, AnimatePresence } from "motion/react";
+import { useState, useEffect } from "react";
 
 export default function Banner() {
   const [currentIndex, setCurrentIndex] = useState<number>(0);
+
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
@@ -18,11 +15,13 @@ export default function Banner() {
   }, []);
 
   return (
-    <div className="relative w-full h-dvh overflow-hidden">
+    <div className="relative w-full h-screen overflow-hidden">
+      <div className="z-10 absolute inset-0 bg-black/60" />
+
       <AnimatePresence>
         <motion.img
           key={currentIndex}
-          src={images[currentIndex]}
+          src={images[currentIndex].src}
           alt={`Banner ${currentIndex + 1}`}
           className="absolute w-full h-full object-cover"
           initial={{ opacity: 0, scale: 1.1 }}
@@ -31,6 +30,29 @@ export default function Banner() {
           transition={{ duration: 1 }}
         />
       </AnimatePresence>
+
+      <div className="z-20 absolute inset-0 flex flex-col justify-center items-center px-4 text-center text-white">
+        <motion.h1
+          key={`header-${currentIndex}`}
+          className="mb-4 font-bold text-4xl md:text-6xl"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -20 }}
+          transition={{ duration: 0.8 }}
+        >
+          {images[currentIndex].headerText}
+        </motion.h1>
+        <motion.p
+          key={`paragraph-${currentIndex}`}
+          className="text-lg md:text-2xl"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: 20 }}
+          transition={{ duration: 0.8 }}
+        >
+          {images[currentIndex].paragraphText}
+        </motion.p>
+      </div>
     </div>
   );
 }
