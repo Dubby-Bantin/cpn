@@ -11,7 +11,7 @@ const NavBar = () => {
   const pathName = usePathname();
   return (
     <header
-      className={`bg-white top-0 z-[999] sticky px-5 flex justify-between items-center p-1 transition-all duration-300`}
+      className={`bg-white top-0 z-[999] fixed w-full px-5 flex justify-between items-center p-1 transition-all duration-300`}
     >
       <Link href="/" className="">
         <Image

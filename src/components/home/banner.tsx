@@ -31,7 +31,7 @@ export default function Banner() {
         />
       </AnimatePresence>
 
-      <div className="z-20 absolute inset-0 flex flex-col justify-center items-center px-10 text-center text-white">
+      <div className="z-20 absolute inset-0 flex flex-col gap-4 justify-center items-center px-10 text-center text-white">
         <motion.h1
           key={`header-${currentIndex}`}
           className="md:w-1/2 text-gradient"
