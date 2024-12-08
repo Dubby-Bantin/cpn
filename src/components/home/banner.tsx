@@ -15,7 +15,7 @@ export default function Banner() {
   }, []);
 
   return (
-    <div className="relative flex justify-center items-center w-full h-screen overflow-hidden">
+    <div className="relative flex justify-center items-center w-full h-[430px] md:h-screen overflow-hidden">
       <div className="z-10 absolute inset-0 bg-black/60" />
 
       <AnimatePresence>
