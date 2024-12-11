@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
+import withVideos from "next-videos";
 
-const nextConfig: NextConfig = {
+const nextConfig: NextConfig = withVideos({
   images: {
     remotePatterns: [
       {
@@ -13,6 +14,6 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-};
+});
 
 export default nextConfig;

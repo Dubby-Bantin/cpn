@@ -6,6 +6,7 @@ export default function Home() {
     <>
       <Banner />
       {/* would like for the components that come after the banner to have a lil padding, depending on the component sha, there can be exceptions */}
+      {/* aiit it's calm man */}
       <div className="px-5">
         <AboutSection />
       </div>

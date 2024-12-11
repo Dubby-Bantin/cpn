@@ -1,29 +1,17 @@
 import Image from "next/image";
 import React from "react";
-import coWorkers from "../../assets/image/co-workers.jpg";
-import teamHands from "../../assets/image/pexels-fauxels-3184418.jpg";
+import coWorkers from "../../../public/images/WhatsApp Image 2024-12-10 at 06.58.40_2434b008.jpg";
+import teamHands from "../../../public/images/pexels-fauxels-3184418.jpg";
+import { aboutOptions } from "@/lib/constants";
 
-type AboutOption = {
-  num: number;
-  numMod?: string;
-  text: string;
-  color: string;
-};
 export default function AboutSection() {
-  const aboutOptions: AboutOption[] = [
-    { num: 3, text: "Years Of Experience", color: "4AC083" },
-    { num: 860, numMod: "+", text: "Positive Reviews", color: "926EE2" },
-    { num: 100, numMod: "K", text: "Trusted Students", color: "F49D49" },
-    { num: 23, text: "Active Institution", color: "60a5fa" },
-  ];
-
   return (
-    <div className="my-5 grid grid-cols-1 md:grid-cols-2 gap-7">
-      <div className="flex flex-col gap-10 bg-white rounded-2xl shadow-2xl p-6">
+    <div className="gap-7 grid grid-cols-1 md:grid-cols-2 my-5">
+      <div className="flex flex-col gap-10 bg-white shadow-2xl p-6 rounded-2xl">
         <div className="flex flex-col gap-10">
           <div className="flex flex-col gap-5">
-            <h2 className="text-[14px] font-semibold">About Us</h2>
-            <h1 className="text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-t  from-blue-500 to-indigo-900">
+            <h2 className="font-semibold text-[14px]">About Us</h2>
+            <h1 className="bg-clip-text bg-gradient-to-t from-blue-500 to-indigo-900 font-semibold text-3xl text-transparent">
               Empowering Businesses with Innovative IT Solutions
             </h1>
           </div>
@@ -39,26 +27,31 @@ export default function AboutSection() {
         <Image
           src={teamHands}
           alt="About Center Point Network LTD"
-          height={480}
-          className="rounded-2xl w-full object-cover h-[320px]"
+          height={500}
+          width={500}
+          layout="responsive"
+          quality={100}
+          className="rounded-2xl w-full h-[320px] object-cover"
         />
       </div>
-      <div className="grid grid-cols-1 gap-5">
-        <Image
-          src={coWorkers}
-          alt="About Center Point Network LTD"
-          height={480}
-          className="rounded-2xl w-full object-cover h-[350px]"
-        />
-        <div className="grid grid-cols-2 place-content-center gap-5 p-7 h-[300px] rounded-2xl bg-white shadow-2xl">
+      <div className="gap-5 grid grid-cols-1">
+        <div className="relative w-full h-[30rem] overflow-clip">
+          <Image
+            src={coWorkers}
+            alt="About Center Point Network LTD"
+            className="rounded-2xl object-cover"
+            layout="fill"
+          />
+        </div>
+        <div className="place-content-center gap-5 grid grid-cols-2 bg-white shadow-2xl p-7 rounded-2xl h-[300px]">
           {aboutOptions.map(({ text, num, numMod, color }, i) => (
-            <div key={i} className="flex h-[100px] bg-slate-100">
+            <div key={i} className="flex bg-slate-100 h-[100px]">
               <div
                 style={{ backgroundColor: `#${color}` }}
                 className={`w-1 h-full`}
               />
               <div className="flex flex-col gap-1 p-3 md:p-5">
-                <h2 className="text-[16px] md:text-[23px] font-semibold">
+                <h2 className="font-semibold text-[16px] md:text-[23px]">
                   {num}
                   {numMod}
                 </h2>
