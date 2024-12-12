@@ -16,6 +16,11 @@ const nextConfig: NextConfig = withVideos({
         protocol: "https",
         hostname: "www.outsourceglobal.com",
       },
+      {
+        protocol: "https",
+        hostname: "images.pexels.com",
+      },
+      { protocol: "https", hostname: "cpnltd.com.ng" },
     ],
   },
 });

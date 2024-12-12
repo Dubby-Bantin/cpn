@@ -1,13 +1,11 @@
 import Image from "next/image";
 import React from "react";
-import coWorkers from "../../../public/images/WhatsApp Image 2024-12-10 at 06.58.40_2434b008.jpg";
-import teamHands from "../../../public/images/pexels-fauxels-3184418.jpg";
 import { aboutOptions } from "@/lib/constants";
 
 export default function AboutSection() {
   return (
     <div className="gap-7 grid grid-cols-1 md:grid-cols-2 my-5">
-      <div className="flex flex-col gap-10 bg-white shadow-2xl p-6 rounded-2xl">
+      <div className="flex flex-col gap-10 h-fit bg-white shadow-2xl p-6 rounded-2xl">
         <div className="flex flex-col gap-10">
           <div className="flex flex-col gap-5">
             <h2 className="font-semibold text-[14px]">About Us</h2>
@@ -25,25 +23,25 @@ export default function AboutSection() {
           </p>
         </div>
         <Image
-          src={teamHands}
+          src="https://images.pexels.com/photos/955395/pexels-photo-955395.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="About Center Point Network LTD"
-          height={500}
           width={500}
-          layout="responsive"
+          height={500}
           quality={100}
           className="rounded-2xl w-full h-[320px] object-cover"
         />
       </div>
       <div className="gap-5 grid grid-cols-1">
-        <div className="relative w-full h-[30rem] overflow-clip">
+        <div className="relative w-full h-fit overflow-clip">
           <Image
-            src={coWorkers}
+            src="https://cpnltd.com.ng/img/about2.jpg"
+            width={500}
+            height={500}
             alt="About Center Point Network LTD"
-            className="rounded-2xl object-cover"
-            layout="fill"
+            className="rounded-2xl w-full h-[320px] object-cover"
           />
         </div>
-        <div className="place-content-center gap-5 grid grid-cols-2 bg-white shadow-2xl p-7 rounded-2xl h-[300px]">
+        <div className="place-content-center gap-5 grid grid-cols-2 bg-white shadow-2xl p-7 rounded-2xl h-[325px]">
           {aboutOptions.map(({ text, num, numMod, color }, i) => (
             <div key={i} className="flex bg-slate-100 h-[100px]">
               <div
