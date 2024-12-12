@@ -19,22 +19,22 @@ const About = () => {
         </div>
 
         <div className="relative flex justify-center items-center gap-6">
-          <div className="relative">
+          <div className="relative top-20 border-4 shadow-lg border-blue-500 rounded-full w-[15rem] h-[15rem]">
             <Image
-              src="/images/co-workers.jpg"
+              src="https://images.pexels.com/photos/955395/pexels-photo-955395.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Team collaboration at work"
-              height={300}
-              width={300}
-              className="relative top-10 border-4 shadow-lg border-blue-500 rounded-full w-[15rem] h-[15rem] object-cover"
+              layout="fill"
+              objectFit="cover"
+              className="rounded-full"
             />
           </div>
-          <div className="relative -top-10">
+          <div className="relative -top-10 border-4 shadow-lg border-blue-500 rounded-full w-[15rem] h-[15rem]">
             <Image
               src="/images/co-workers.jpg"
               alt="Team discussion in progress"
-              height={300}
-              width={300}
-              className="relative border-4 shadow-lg border-blue-500 rounded-full w-[15rem] h-[15rem] object-cover"
+              layout="fill"
+              objectFit="cover"
+              className="rounded-full"
             />
           </div>
         </div>
