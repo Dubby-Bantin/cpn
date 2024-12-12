@@ -12,6 +12,10 @@ const nextConfig: NextConfig = withVideos({
         protocol: "https",
         hostname: "tse1.mm.bing.net",
       },
+      {
+        protocol: "https",
+        hostname: "www.outsourceglobal.com",
+      },
     ],
   },
 });

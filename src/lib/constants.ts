@@ -1,4 +1,6 @@
 import { Home, Info, UserCog } from "lucide-react";
+import { AiOutlineMobile } from "react-icons/ai";
+import { BsFillPersonFill, BsFillQuestionCircleFill } from "react-icons/bs";
 
 const navLinks = [
   { name: "Home", path: "/", Icon: Home },
@@ -30,4 +32,80 @@ const aboutOptions: AboutOption[] = [
   { num: 23, text: "Active Institution", color: "60a5fa" },
 ];
 
-export { navLinks, images, aboutOptions };
+const faqs: FAQ[] = [
+  {
+    Icon: BsFillQuestionCircleFill,
+    question: "Customer Experience",
+    answer:
+      "Lectra is a platform for scheduling lectures and managing educational resources effectively.",
+  },
+  {
+    Icon: BsFillPersonFill,
+    question: "Data Management",
+    answer:
+      'You can register by clicking on the "Sign Up" button on the homepage and filling out the required details.',
+  },
+  {
+    Icon: AiOutlineMobile,
+    question: "Is there a mobile app?",
+    answer:
+      "Currently, Lectra is a web-based application. A mobile app is in development.",
+  },
+  {
+    Icon: AiOutlineMobile,
+    question: "Is there a mobile app?",
+    answer:
+      "Currently, Lectra is a web-based application. A mobile app is in development.",
+  },
+  {
+    Icon: AiOutlineMobile,
+    question: "Is there a mobile app?",
+    answer:
+      "Currently, Lectra is a web-based application. A mobile app is in development.",
+  },
+  {
+    Icon: AiOutlineMobile,
+    question: "Is there a mobile app?",
+    answer:
+      "Currently, Lectra is a web-based application. A mobile app is in development.",
+  },
+  {
+    Icon: AiOutlineMobile,
+    question: "Is there a mobile app?",
+    answer:
+      "Currently, Lectra is a web-based application. A mobile app is in development.",
+  },
+  {
+    Icon: AiOutlineMobile,
+    question: "Is there a mobile app?",
+    answer:
+      "Currently, Lectra is a web-based application. A mobile app is in development.",
+  },
+];
+
+const features = [
+  {
+    icon: "🌱",
+    title: "Flexible & Understanding",
+    description:
+      "We are remote with collaboration spaces in NY and Miami. Employees have the autonomy to build their workday.",
+  },
+  {
+    icon: "📈",
+    title: "Growth & Development",
+    description:
+      "There’s a wealth of growth potential to develop your career in the long term.",
+  },
+  {
+    icon: "🗣️",
+    title: "Open & Transparent",
+    description:
+      "Everyone stays informed on all the latest projects, and everyone’s input is welcome.",
+  },
+  {
+    icon: "🤝",
+    title: "Helpful & Supportive",
+    description: "As part of the team, you’ll never have to go it alone.",
+  },
+];
+export { navLinks, images, aboutOptions, faqs, features };

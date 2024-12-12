@@ -11,7 +11,7 @@ const NavBar = () => {
   const pathName = usePathname();
   return (
     <header
-      className={`bg-white top-0 z-[999] fixed w-full px-5 flex justify-between items-center p-1 transition-all duration-300`}
+      className={`bg-white top-0 z-[999] sticky w-full px-5 flex justify-between items-center p-1 transition-all duration-300`}
     >
       <Link href="/" className="">
         <Image
@@ -72,7 +72,7 @@ const NavBar = () => {
           {navLinks.map(({ name, path, Icon }) => (
             <Link
               key={path}
-              href={`/${path}`}
+              href={`${path}`}
               className="flex items-center gap-2 py-2 rounded-xl text-sm transition-colors duration-200"
             >
               <Icon className="group-hover:scale-110 w-3 h-3 transition-all" />
