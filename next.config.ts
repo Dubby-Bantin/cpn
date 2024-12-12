@@ -12,6 +12,11 @@ const nextConfig: NextConfig = withVideos({
         protocol: "https",
         hostname: "tse1.mm.bing.net",
       },
+      {
+        protocol: "https",
+        hostname: "images.pexels.com",
+      },
+      { protocol: "https", hostname: "cpnltd.com.ng" },
     ],
   },
 });
