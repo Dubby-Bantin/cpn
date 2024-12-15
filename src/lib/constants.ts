@@ -7,6 +7,7 @@ const navLinks = [
   { name: "About us", path: "/about", Icon: Info },
   { name: "Services", path: "/services", Icon: UserCog },
 ];
+
 const images = [
   {
     headerText: "Secure Your Digital Future",
