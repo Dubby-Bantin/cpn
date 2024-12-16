@@ -1,7 +1,7 @@
-import type { NextConfig } from "next";
+// import type { NextConfig } from "next";
 import withVideos from "next-videos";
 
-const nextConfig: NextConfig = withVideos({
+const nextConfig = withVideos({
   images: {
     remotePatterns: [
       {
