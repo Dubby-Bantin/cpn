@@ -1,3 +1,9 @@
+declare type NavLinks = {
+  name: string;
+  path: string;
+  Icon: React.ElementType;
+};
+
 declare type AboutOption = {
   num: number;
   numMod?: string;
@@ -17,4 +23,15 @@ declare type FAQ = {
   Icon: React.ElementType;
   question: string;
   answer: string;
+};
+
+declare type Services = {
+  word: string;
+  description: string;
+  num: number;
+};
+
+declare type Clients = {
+  text: string;
+  img: string;
 };

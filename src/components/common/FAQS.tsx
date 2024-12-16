@@ -4,7 +4,7 @@ import { useState } from "react";
 import FAQItem from "./FAQItem";
 import { faqs } from "@/lib/constants";
 
-const FAQSection: React.FC = () => {
+const FAQSection = ({ start, end }: { start?: number; end?: number }) => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const toggleFAQ = (index: number) =>
@@ -13,7 +13,7 @@ const FAQSection: React.FC = () => {
   return (
     <section id="faqs" className="w-full h-full">
       <div className="space-y-4 mx-auto md:max-w-2xl">
-        {faqs.map((faq, i) => (
+        {faqs.slice(start, end).map((faq, i) => (
           <FAQItem
             key={i}
             isOpen={i === openIndex}
