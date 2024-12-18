@@ -109,4 +109,38 @@ const features = [
     description: "As part of the team, you’ll never have to go it alone.",
   },
 ];
-export { navLinks, images, aboutOptions, faqs, features };
+
+const sectors = [
+  "Information Technology",
+  "Social Advocacy",
+  "Telecommunications",
+  "Healthcare",
+  "Manufacturing",
+  "Legal",
+  "SMEs",
+  "Government",
+  "Financial Services",
+];
+const values = [
+  {
+    Icon: "https://www.outsourceglobal.com/about/icons/integrity.svg",
+    title: "Integrity",
+    body: "With a strong moral compass, our colleagues and customers can expect complete honesty and transparency at all times.",
+  },
+  {
+    Icon: "https://www.outsourceglobal.com/about/icons/integrity.svg",
+    title: "High Standards",
+    body: "Our ethos is built on a superb work ethic. We bring our best self to work every day.",
+  },
+  {
+    Icon: "https://www.outsourceglobal.com/about/icons/tape.svg",
+    title: "Measurable Impact",
+    body: "We obsess over serving our customers and aim to create partnerships that expediates growth.",
+  },
+  {
+    Icon: "https://www.outsourceglobal.com/about/icons/increase.svg",
+    title: "Constant Improvement",
+    body: "We value and encourage personal growth and we are aggressive towards meeting our goals.",
+  },
+];
+export { navLinks, images, aboutOptions, faqs, features, sectors, values };

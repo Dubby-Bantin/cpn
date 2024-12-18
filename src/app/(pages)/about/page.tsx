@@ -1,6 +1,9 @@
 import WhoWeAre from "@/components/about/who-we-are";
 import Image from "next/image";
-
+import OurCulture from "@/components/about/culture";
+import WhatWeOffer from "@/components/about/what-we-offer";
+import JoinUs from "@/components/common/join-us";
+import Values from "@/components/about/values";
 const About = () => {
   return (
     <div className="w-full">
@@ -24,8 +27,7 @@ const About = () => {
               src="https://images.pexels.com/photos/955395/pexels-photo-955395.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Team collaboration at work"
               layout="fill"
-              objectFit="cover"
-              className="rounded-full"
+              className="rounded-full object-cover"
             />
           </div>
           <div className="relative -top-10 border-4 shadow-lg border-blue-500 rounded-full w-[15rem] h-[15rem]">
@@ -33,14 +35,18 @@ const About = () => {
               src="/images/co-workers.jpg"
               alt="Team discussion in progress"
               layout="fill"
-              objectFit="cover"
-              className="rounded-full"
+              className="rounded-full object-cover"
             />
           </div>
         </div>
       </div>
-
+      <OurCulture />
       <WhoWeAre />
+      <WhatWeOffer />
+      <Values />
+      <div className="px-20 py-10">
+        <JoinUs />
+      </div>
     </div>
   );
 };

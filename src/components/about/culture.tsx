@@ -4,7 +4,7 @@ import { Button } from "../ui/button";
 
 const OurCulture = () => {
   return (
-    <div className="bg-[#051322] px-6 md:px-20 py-16 rounded-tl-[10rem]">
+    <div className="relative bg-darkBlue px-6 md:px-20 py-16 rounded-tl-[10rem]">
       <h2 className="mb-10 font-semibold text-3xl text-white md:text-4xl">
         Our culture
       </h2>
