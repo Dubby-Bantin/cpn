@@ -14,7 +14,7 @@ const Values = () => {
         <div className="gap-10 grid grid-cols-2 p-20 w-full">
           {values.map(({ Icon, title, body }, i) => (
             <div
-              className="flex flex-col gap-5 shadow-sm p-10 rounded-md"
+              className="flex flex-col gap-5 shadow-md p-10 rounded-md"
               key={i}
             >
               <Image src={Icon} alt="" height={30} width={30} />
