@@ -11,16 +11,15 @@ const NavBar = () => {
   const pathName = usePathname();
   return (
     <header
-      className={`border-b bg-white backdrop-blur-lg top-0 z-[999] sticky w-full px-5 flex justify-between items-center p-1 transition-all duration-300`}
+      className={`bg-white top-0 z-[999] py-2 sticky w-full px-5 flex justify-between items-center p-1 transition-all duration-300`}
     >
       <Link href="/" className="">
         <Image
-          src="https://tse1.mm.bing.net/th?id=OIG3..6jQXo7stSjshw45zUR5&pid=ImgGn"
+          src="/CPNRed.svg"
           alt="cpn_logo"
           width={50}
           height={50}
           priority
-          className="rounded-full"
         />
       </Link>
 
@@ -59,7 +58,7 @@ const NavBar = () => {
             {" "}
             <Link href="/" className="relative -top-2">
               <Image
-                src="https://tse1.mm.bing.net/th?id=OIG3..6jQXo7stSjshw45zUR5&pid=ImgGn"
+                src="/CPNRed.svg"
                 alt="cpn_logo"
                 width={50}
                 height={50}
