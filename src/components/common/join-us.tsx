@@ -5,7 +5,7 @@ import { MailOpen } from "lucide-react";
 const JoinUs = () => {
   return (
     <div className="flex justify-between items-center gap-3 bg-[#051322] px-20 p-5 rounded-lg h-[20rem]">
-      <div className="w-1/2 text-white">
+      <div className="md:w-1/2 text-white">
         <h1 className="mb-5 font-semibold text-5xl">
           Ready to partner <span className="text-blue-400">with</span> us?
         </h1>
