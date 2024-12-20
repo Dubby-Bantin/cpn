@@ -5,8 +5,8 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="flex flex-col gap-20 px-20 p-10">
-      <div className="flex justify-between items-start w-full h-full">
+    <div className="flex flex-col gap-20 md:px-20 py-10">
+      <div className="flex flex-col md:flex-row justify-between px-10 md:px-0 items-start w-full h-full">
         <div className="flex flex-col items-start gap-5 py-20">
           <h1 className="font-semibold text-5xl">
             What We Can Provide <span className="text-blue-500">For You</span>{" "}

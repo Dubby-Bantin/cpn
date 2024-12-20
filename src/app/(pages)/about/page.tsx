@@ -7,7 +7,7 @@ import Values from "@/components/about/values";
 const About = () => {
   return (
     <div className="w-full">
-      <div className="relative flex md:flex-row flex-col justify-between items-center gap-10 md:gap-20 px-6 md:px-20 py-10 w-full md:h-[30rem]">
+      <div className="mb-20 md:mb-0 relative flex md:flex-row flex-col justify-between items-center gap-10 md:gap-20 px-6 md:px-20 py-10 w-full md:h-[30rem]">
         <div className="flex flex-col items-center md:items-start gap-6 md:w-3/5 text-center md:text-left">
           <h1 className="font-semibold text-3xl md:text-5xl leading-snug md:leading-tight">
             Committed to{" "}
@@ -44,7 +44,7 @@ const About = () => {
       <WhoWeAre />
       <WhatWeOffer />
       <Values />
-      <div className="px-20 py-10">
+      <div className="md:px-20 py-10">
         <JoinUs />
       </div>
     </div>

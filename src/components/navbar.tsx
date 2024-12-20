@@ -54,16 +54,16 @@ const NavBar = () => {
           </Button>
         </SheetTrigger>
         <SheetContent side="top" className="z-[999] flex flex-col">
-          <SheetTitle>
+          <SheetTitle className="w-[50px]">
             {" "}
-            <Link href="/" className="relative -top-2">
+            <Link href="/" className="relative -top-2 w-[50px]">
               <Image
                 src="/CPNRed.svg"
                 alt="cpn_logo"
                 width={50}
                 height={50}
                 priority
-                className="rounded-full"
+                className="rounded-full w-[50px]"
               />
             </Link>
           </SheetTitle>
