@@ -328,7 +328,7 @@ const Services = () => {
               <h1 className="mb-6 font-semibold text-3xl text-center text-primary2 lg:text-4xl lg:text-left lg:leading-[4rem]">
                 IT Power Solutions
               </h1>
-              <div className="mb-2 border border-blue-500 w-28"></div>
+              <div className="border-primary2 mb-2 border w-28"></div>
               <div className="gap-5 grid text-gray-700 text-sm">
                 <p>
                   A reliable uninterrupted power supply is non-negotiable for IT
