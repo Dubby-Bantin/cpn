@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body::-webkit-scrollbar {
-  width: 4px;
+  width: 7px;
   height: 4px;
   border-radius: 50px;
 }
@@ -18,6 +18,10 @@ body::-webkit-scrollbar-thumb {
 }
 body::-webkit-scrollbar-thumb:hover {
   background: #7878a3;
+}
+
+text {
+  color: #ff4444;
 }
 
 @layer base {
@@ -85,8 +89,8 @@ body::-webkit-scrollbar-thumb:hover {
   }
 }
 
-.text-gradient {
-  @apply md:tracking-wider md:text-5xl text-3xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-t from-indigo-900 via-blue-500 to-neutral-200  bg-opacity-60;
+.banner__text__gradient {
+  @apply md:tracking-wider md:text-5xl text-3xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-t from-[#850000] to-primary2  bg-opacity-60;
 }
 
 @media (min-width: 768px) {

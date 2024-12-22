@@ -13,13 +13,15 @@ const NavBar = () => {
     <header
       className={`bg-white top-0 z-[999] py-2 sticky w-full px-5 flex justify-between items-center p-1 transition-all duration-300`}
     >
-      <Link href="/" className="">
+      <Link href="/" className="h-auto overflow-visible">
         <Image
-          src="/CPNRed.svg"
+          src="/Asset 27Blessed.png"
           alt="cpn_logo"
-          width={50}
-          height={50}
+          width={110} // Correct width
+          height={50} // Correct height
+          quality={100}
           priority
+          className="w-[110px]"
         />
       </Link>
 
@@ -29,23 +31,30 @@ const NavBar = () => {
             key={path}
             href={`${path}`}
             className={`relative flex flex-col items-center px-3 py-2 rounded-xl text-sm transition-colors duration-200 ${
-              path === pathName ? "text-blue-500" : ""
+              path === pathName ? "text-primary2" : ""
             }`}
           >
-            {name}
+            <p className="text-[16px]">{path === "/contact" ? "" : name}</p>
+
             <AnimatePresence>
               {path === pathName && (
                 <motion.div
                   initial={{ opacity: 0, scale: 0 }}
                   animate={{ opacity: 1, scale: 1.1 }}
                   transition={{ delay: 0.8 }}
-                  className="top-8 absolute bg-blue-500 rounded-full w-1 h-1"
+                  className="top-8 absolute bg-primary2 rounded-full w-1 h-1"
                 />
               )}
             </AnimatePresence>
           </Link>
         ))}
       </nav>
+      <Link
+        href="/contact"
+        className="hidden md:block font-[500] px-6 py-3 bg-primary2 text-white rounded-lg"
+      >
+        Contact Us
+      </Link>
 
       <Sheet>
         <SheetTrigger asChild>
@@ -54,16 +63,17 @@ const NavBar = () => {
           </Button>
         </SheetTrigger>
         <SheetContent side="top" className="z-[999] flex flex-col">
-          <SheetTitle className="w-[50px]">
+          <SheetTitle className="w-fit">
             {" "}
-            <Link href="/" className="relative -top-2 w-[50px]">
+            <Link href="/" className="relative -top-2">
               <Image
-                src="/CPNRed.svg"
+                src="/Asset 27Blessed.png"
                 alt="cpn_logo"
-                width={50}
-                height={50}
+                width={110} // Correct width
+                height={50} // Correct height
+                quality={100}
                 priority
-                className="rounded-full w-[50px]"
+                className="w-[110px]"
               />
             </Link>
           </SheetTitle>

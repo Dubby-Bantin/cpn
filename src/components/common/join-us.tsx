@@ -7,7 +7,7 @@ const JoinUs = () => {
     <div className="flex flex-col md:flex-row justify-between items-center gap-3 bg-[#051322] px-20 p-5 md:rounded-lg min-h-[20rem]">
       <div className="md:w-1/2 text-white">
         <h1 className="mb-5 font-semibold text-3xl md:text-5xl">
-          Ready to partner <span className="text-blue-400">with</span> us?
+          Ready to partner <span className="text-primary2">with</span> us?
         </h1>
         <div className="bg-white rounded-sm w-[7rem] h-3" />
       </div>

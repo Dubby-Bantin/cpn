@@ -1,40 +1,104 @@
 "use client";
 
-import { images } from "@/lib/constants";
 import { motion } from "framer-motion";
-import { useState, useEffect } from "react";
 import VideoPlayer from "../common/VideoPlayer";
+import Image from "next/image";
 
 export default function Banner() {
-  const [currentIndex, setCurrentIndex] = useState<number>(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000);
-    return () => clearInterval(interval);
-  }, []);
 
   return (
-    <div className="relative flex justify-center items-center w-full h-[430px] md:h-screen overflow-hidden">
-      <div className="z-10 absolute inset-0 bg-black/60" />
+    <div className="relative flex justify-center items-center w-full h-[1000px] md:h-screen overflow-hidden">
+      {/* <div className="z-10 absolute inset-0 bg-black/60" /> */}
 
       <VideoPlayer
+        className="absolute"
         video={
-          "https://media.istockphoto.com/id/1474198714/video/global-digital-grid-growing-over-earth-looped-net-3d-animation-ai-neural-networks-covering.mp4?s=mp4-640x640-is&k=20&c=zU_cA1DvL9PLx1TMM1p0A_mlbTSciufs1zf9G7R-3No="
+          "/Main Comp Map Animation.mp4"
         }
       />
+      <div className="relative grid grid-cols-1 md:grid-cols-2 md:gap-[20px] lg:gap-[50px] xl:gap-[250px] place-items-center px-3 md:px-0  h-full text-white w-full md:w-[98%] lg:w-[95%]">
+        <div className="text-white">hello</div>
+        <div className="grid grid-cols-2 gap-4 h-[90%] w-full ">
+          <div className="relative grid grid-rows-3 gap-4 h-full">
+            <div className="row-start-1 row-span-2 overflow-hidden rounded-xl">
+              <motion.div
+                initial={{ scale: 1 }}
+                whileHover={{ scale: 1.2 }}
+                transition={{ ease: "easeInOut", duration: 0.2 }}
+                className="relative w-full h-full"
+              >
+                <Image
+                  src="/images/WhatsApp Image 2024-12-10 at 06.58.40_2434b008.jpg"
+                  alt=""
+                  fill
+                  className="object-cover rounded-xl"
+                />
+              </motion.div>
+            </div>
 
-      <div className="z-20 absolute inset-0 flex flex-col justify-center items-center gap-4 px-10 text-center text-white">
+            <div className="row-start-3 row-span-1 overflow-hidden rounded-xl">
+              <motion.div
+                initial={{ scale: 1 }}
+                whileHover={{ scale: 1.2 }}
+                transition={{ ease: "easeInOut", duration: 0.2 }}
+                className="relative w-full h-full"
+              >
+                <Image
+                  src="/images/banner/pexels-divinetechygirl-1181360.jpg"
+                  alt=""
+                  fill
+                  className="object-cover rounded-xl"
+                />
+              </motion.div>
+            </div>
+          </div>
+
+          <div className="relative grid grid-rows-3 gap-4 h-full">
+            <div className="row-start-1 row-span-1 overflow-hidden rounded-xl">
+              <motion.div
+                initial={{ scale: 1 }}
+                whileHover={{ scale: 1.2 }}
+                transition={{ ease: "easeInOut", duration: 0.2 }}
+                className="relative w-full h-full"
+              >
+                <Image
+                  src="/images/banner/pexels-gabby-k-9487227.jpg"
+                  alt=""
+                  fill
+                  className="object-cover rounded-xl"
+                />
+              </motion.div>
+            </div>
+
+            <div className="row-start-2 row-span-2 overflow-hidden rounded-xl">
+              <motion.div
+                initial={{ scale: 1 }}
+                whileHover={{ scale: 1.2 }}
+                transition={{ ease: "easeInOut", duration: 0.2 }}
+                className="relative w-full h-full"
+              >
+                <Image
+                  src="/images/banner/pexels-mizunokozuki-12903275.jpg"
+                  alt=""
+                  fill
+                  className="object-cover rounded-xl"
+                />
+              </motion.div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="z-20 absolute inset-0 flex flex-col justify-center items-center gap-4 px-10 text-center text-white">
         <motion.h1
           key={`header-${currentIndex}`}
-          className="md:w-1/2 text-gradient"
+          className="md:w-1/2 banner__text__gradient"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
           transition={{ duration: 0.8 }}
         >
-          {images[currentIndex]?.headerText}
+          {bannerImages[currentIndex]?.headerText}
         </motion.h1>
         <motion.p
           key={`paragraph-${currentIndex}`}
@@ -44,9 +108,9 @@ export default function Banner() {
           exit={{ opacity: 0, y: 20 }}
           transition={{ duration: 0.8 }}
         >
-          {images[currentIndex]?.paragraphText}
+          {bannerImages[currentIndex]?.paragraphText}
         </motion.p>
-      </div>
+      </div> */}
     </div>
   );
 }

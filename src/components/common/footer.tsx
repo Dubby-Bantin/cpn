@@ -3,8 +3,8 @@ import Image from "next/image";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 const Footer = () => (
-  <div className="bg-blue-50">
-    <footer className="px-5 py-10 text-blue-700">
+  <div className="bg-[#ffeded]">
+    <footer className="px-5 py-10 text-black">
       <div className="gap-8 grid grid-cols-1 md:grid-cols-4 mx-auto max-w-screen-xl">
         <div>
           <Link href="/" aria-label="Home">
@@ -36,7 +36,7 @@ const Footer = () => (
               Alagomeji-Yaba, Lagos
             </address>
           </div>
-          <div className="flex space-x-4 mt-5 text-2xl text-blue-700">
+          <div className="flex space-x-4 mt-5 text-2xl text-primary2">
             <a href="#" aria-label="Facebook">
               <FaFacebook />
             </a>
@@ -113,7 +113,7 @@ const Footer = () => (
           <h3 className="mt-5 font-bold text-lg">Highlights</h3>
           <a
             href="#"
-            className="text-blue-500 text-sm hover:text-blue-800 underline"
+            className="text-primary2 text-sm hover:text-primary3 underline"
           >
             Outsource Global Wins 2021 Service Exporting Award
           </a>
