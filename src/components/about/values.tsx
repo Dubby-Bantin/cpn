@@ -6,7 +6,7 @@ const Values = () => {
     <div className="flex justify-center items-center w-full">
       <div className="flex flex-col justify-center items-center w-full">
         <div className="flex flex-col justify-center items-center gap-3 w-full">
-          <h1 className="font-semibold text-3xl md:text-4xl tracking-wider">
+          <h1 className="font-semibold text-3xl text-primary-orange md:text-4xl tracking-wider">
             Our Core Values
           </h1>
           <div className="bg-darkBlue rounded-sm w-20 h-2" />

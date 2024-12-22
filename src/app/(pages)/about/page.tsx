@@ -11,7 +11,7 @@ const About = () => {
         <div className="flex flex-col items-center md:items-start gap-6 md:w-3/5 text-center md:text-left">
           <h1 className="font-semibold text-3xl md:text-5xl leading-snug md:leading-tight">
             Committed to{" "}
-            <span className="text-blue-500">growing your business</span> with
+            <span className="text-orange-500">growing your business</span> with
             incremental partnerships
           </h1>
           <p className="text-gray-800 text-sm md:text-base leading-relaxed">

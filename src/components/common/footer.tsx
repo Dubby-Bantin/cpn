@@ -3,7 +3,7 @@ import Image from "next/image";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 const Footer = () => (
-  <div className="bg-blue-50">
+  <div className="bg-primary-blue">
     <footer className="px-5 py-10 text-blue-700">
       <div className="gap-8 grid grid-cols-1 md:grid-cols-4 mx-auto max-w-screen-xl">
         <div>
@@ -17,8 +17,10 @@ const Footer = () => (
             />
           </Link>
           <div className="mt-5">
-            <h3 className="mb-2 font-bold text-lg">Abuja</h3>
-            <address className="text-sm not-italic">
+            <h3 className="mb-2 font-bold text-lg text-white">
+              Abuja
+            </h3>
+            <address className="text-sm text-white not-italic">
               2nd Floor, ASTA GALLERY
               <br />
               Plot 1185, Parkway Road,
@@ -29,14 +31,14 @@ const Footer = () => (
             </address>
           </div>
           <div className="mt-5">
-            <h3 className="font-bold text-lg">Lagos</h3>
-            <address className="text-sm not-italic">
+            <h3 className="font-bold text-lg text-white">Lagos</h3>
+            <address className="text-sm text-white not-italic">
               295 Herbert Macaulay Way,
               <br />
               Alagomeji-Yaba, Lagos
             </address>
           </div>
-          <div className="flex space-x-4 mt-5 text-2xl text-blue-700">
+          <div className="flex space-x-4 mt-5 text-2xl text-white">
             <a href="#" aria-label="Facebook">
               <FaFacebook />
             </a>
@@ -47,17 +49,17 @@ const Footer = () => (
         </div>
 
         <div>
-          <h3 className="mb-4 font-bold text-lg">Kaduna</h3>
-          <address className="text-sm not-italic">
+          <h3 className="mb-4 font-bold text-lg text-white">Kaduna</h3>
+          <address className="text-sm text-white not-italic">
             47, Kanta Road, Unguwar
             <br />
             Rimi, Kaduna State.
           </address>
           <div className="mt-5">
-            <h3 className="font-bold text-lg">
+            <h3 className="font-bold text-lg text-white">
               Outsource Global INC, Mailing Address
             </h3>
-            <address className="text-sm not-italic">
+            <address className="text-sm text-white not-italic">
               2261 Market Street #4397,
               <br />
               San Francisco CA, 94114
@@ -66,7 +68,9 @@ const Footer = () => (
         </div>
 
         <div>
-          <h3 className="mb-4 font-bold text-lg">Quick Links</h3>
+          <h3 className="mb-4 font-bold text-lg text-white">
+            Quick Links
+          </h3>
           <ul className="space-y-2 text-sm">
             {[
               "Services",
@@ -75,19 +79,22 @@ const Footer = () => (
               "Employee ERP",
               "Leadership",
             ].map((link, index) => (
-              <li key={index}>
+              <li className="text-white" key={index}>
                 <Link href={`/${link.toLowerCase().replace(/\s+/g, "-")}`}>
                   {link}
                 </Link>
               </li>
             ))}
           </ul>
-          <h3 className="mt-5 font-bold text-lg">Resources</h3>
+          <h3 className="mt-5 font-bold text-lg text-white">
+            Resources
+          </h3>
           <ul className="space-y-2 text-sm">
             {["Gallery", "Case Studies", "Privacy Policy", "Articles"].map(
               (resource, index) => (
                 <li key={index}>
                   <Link
+                    className="text-white"
                     href={`/${resource.toLowerCase().replace(/\s+/g, "-")}`}
                   >
                     {resource}
@@ -99,8 +106,8 @@ const Footer = () => (
         </div>
 
         <div>
-          <h3 className="mb-4 font-bold text-lg">Quick Contact</h3>
-          <ul className="space-y-2 text-sm">
+          <h3 className="mb-4 font-bold text-lg text-white">Quick Contact</h3>
+          <ul className="space-y-2 text-sm text-white">
             <li>
               <a href="mailto:info@outsourceglobal.com">
                 info@outsourceglobal.com
@@ -110,7 +117,7 @@ const Footer = () => (
             <li>UK: +44 020 8323 5771</li>
             <li>US: +1-332-207-2865</li>
           </ul>
-          <h3 className="mt-5 font-bold text-lg">Highlights</h3>
+          <h3 className="mt-5 font-bold text-lg text-white">Highlights</h3>
           <a
             href="#"
             className="text-blue-500 text-sm hover:text-blue-800 underline"
@@ -121,7 +128,7 @@ const Footer = () => (
       </div>
     </footer>
 
-    <div className="flex justify-center items-center bg-darkBlue py-5 text-white">
+    <div className="flex justify-center items-center py-5 text-white">
       <p className="text-sm">
         &copy; {new Date().getFullYear()} Outsource Global. All Rights Reserved.
       </p>

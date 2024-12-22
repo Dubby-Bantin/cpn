@@ -11,7 +11,7 @@ const NavBar = () => {
   const pathName = usePathname();
   return (
     <header
-      className={`bg-white top-0 z-[999] py-2 sticky w-full px-5 flex justify-between items-center p-1 transition-all duration-300`}
+      className={`bg-primary-blue top-0 z-[999] py-2 sticky w-full px-5 flex justify-between items-center p-1 transition-all duration-300`}
     >
       <Link href="/" className="">
         <Image
@@ -23,13 +23,13 @@ const NavBar = () => {
         />
       </Link>
 
-      <nav className="relative md:flex items-center gap-5 hidden dark:text-white">
+      <nav className="relative md:flex items-center gap-5 hidden text-white">
         {navLinks.map(({ name, path }) => (
           <Link
             key={path}
             href={`${path}`}
             className={`relative flex flex-col items-center px-3 py-2 rounded-xl text-sm transition-colors duration-200 ${
-              path === pathName ? "text-blue-500" : ""
+              path === pathName ? "text-orange-500" : ""
             }`}
           >
             {name}
@@ -39,7 +39,7 @@ const NavBar = () => {
                   initial={{ opacity: 0, scale: 0 }}
                   animate={{ opacity: 1, scale: 1.1 }}
                   transition={{ delay: 0.8 }}
-                  className="top-8 absolute bg-blue-500 rounded-full w-1 h-1"
+                  className="top-8 absolute bg-orange-500 rounded-full w-1 h-1"
                 />
               )}
             </AnimatePresence>

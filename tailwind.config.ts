@@ -12,7 +12,6 @@ export default {
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        darkBlue: "#051322",
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
@@ -24,6 +23,8 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          blue: "#00102E",
+          orange: "#ff4500",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
