@@ -12,12 +12,12 @@ export default function AboutSection() {
       <div className="flex flex-col gap-[40px] p-5 md:p-[50px]">
         <div className="flex flex-col">
           <div className="text-[36px] font-semibold w-fit">
-            <span className="mr-2 bg-clip-text bg-gradient-to-t from-blue-500 to-indigo-900 font-semibold text-transparent">
+            <span className="mr-2 bg-clip-text bg-gradient-to-t from-primary3 to-primary2  font-semibold text-transparent">
               What
             </span>
             we do
           </div>
-          <div className="h-[8px] w-[100px] bg-blue-500 rounded-md"></div>
+          <div className="h-[8px] w-[100px] bg-primary2 rounded-md"></div>
         </div>
         <p className="text-[15px]">
           At Center Point Network Ltd., we specialize in delivering cutting-edge

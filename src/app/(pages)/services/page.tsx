@@ -1,15 +1,16 @@
 import FAQSection from "@/components/common/FAQS";
 import JoinUs from "@/components/common/join-us";
+// import JoinUs from "@/components/common/join-us";
 import { Button } from "@/components/ui/button";
 import React from "react";
 
 const Services = () => {
   return (
-    <div className="flex flex-col gap-20 px-20 p-10">
-      <div className="flex justify-between items-start w-full h-full">
+    <div className="flex flex-col gap-20 md:px-20 py-10">
+      <div className="flex md:flex-row flex-col justify-between items-start px-10 md:px-0 w-full h-full">
         <div className="flex flex-col items-start gap-5 py-20">
           <h1 className="font-semibold text-5xl">
-            What We Can Provide <span className="text-blue-500">For You</span>{" "}
+            What We Can Provide <span className="text-primary2">For You</span>{" "}
           </h1>
           <p className="">
             At Outsource Global, we have deep vertical expertise and a unique

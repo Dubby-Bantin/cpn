@@ -4,6 +4,12 @@ declare type NavLinks = {
   Icon: React.ElementType;
 };
 
+declare type Features = {
+  Icon: React.ElementType;
+  title: string;
+  description: string;
+};
+
 declare type AboutOption = {
   num: number;
   numMod?: string;
@@ -29,6 +35,7 @@ declare type Services = {
   word: string;
   description: string;
   num: number;
+  Icon: React.ElementType;
 };
 
 declare type Clients = {

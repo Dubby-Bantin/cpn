@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import FAQItem from "./FAQItem";
-import { faqs } from "@/lib/constants";
+import { services } from "@/lib/constants";
 
 const FAQSection = ({ start, end }: { start?: number; end?: number }) => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -13,13 +13,13 @@ const FAQSection = ({ start, end }: { start?: number; end?: number }) => {
   return (
     <section id="faqs" className="w-full h-full">
       <div className="space-y-4 mx-auto md:max-w-2xl">
-        {faqs.slice(start, end).map((faq, i) => (
+        {services.slice(start, end).map((faq, i) => (
           <FAQItem
             key={i}
             isOpen={i === openIndex}
             onClick={() => toggleFAQ(i)}
-            question={faq.question}
-            answer={faq.answer}
+            question={faq.word}
+            answer={faq.description}
             Icon={faq.Icon}
           />
         ))}

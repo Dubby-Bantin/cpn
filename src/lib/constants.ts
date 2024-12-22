@@ -1,15 +1,32 @@
 import { Home, Info, UserCog, Phone } from "lucide-react";
 import { AiOutlineMobile } from "react-icons/ai";
-import { BsFillPersonFill, BsFillQuestionCircleFill } from "react-icons/bs";
+import {
+  BsFillPersonFill,
+  BsFillQuestionCircleFill,
+  BsGraphUp,
+} from "react-icons/bs";
+import { PiSpeakerHighFill } from "react-icons/pi";
+import { RiPlantFill } from "react-icons/ri";
+import {
+  FaHandshake,
+  FaShieldAlt,
+  FaLaptopCode,
+  FaLightbulb,
+  FaBriefcase,
+  FaThumbsUp,
+  FaChalkboardTeacher,
+} from "react-icons/fa";
 
 const navLinks: NavLinks[] = [
   { name: "Home", path: "/", Icon: Home },
   { name: "About us", path: "/about", Icon: Info },
   { name: "Services", path: "/services", Icon: UserCog },
+  { name: "Educational", path: "educational", Icon: UserCog },
+  { name: "Leadership", path: "leadership", Icon: UserCog },
   { name: "Contact Us", path: "/contact", Icon: Phone },
 ];
 
-const images = [
+const bannerImages = [
   {
     headerText: "Secure Your Digital Future",
     paragraphText:
@@ -85,27 +102,27 @@ const faqs: FAQ[] = [
   },
 ];
 
-const features = [
+const features: Features[] = [
   {
-    icon: "🌱",
+    Icon: RiPlantFill,
     title: "Flexible & Understanding",
     description:
       "We are remote with collaboration spaces in NY and Miami. Employees have the autonomy to build their workday.",
   },
   {
-    icon: "📈",
+    Icon: BsGraphUp,
     title: "Growth & Development",
     description:
       "There’s a wealth of growth potential to develop your career in the long term.",
   },
   {
-    icon: "🗣️",
+    Icon: PiSpeakerHighFill,
     title: "Open & Transparent",
     description:
       "Everyone stays informed on all the latest projects, and everyone’s input is welcome.",
   },
   {
-    icon: "🤝",
+    Icon: FaHandshake,
     title: "Helpful & Supportive",
     description: "As part of the team, you’ll never have to go it alone.",
   },
@@ -150,36 +167,42 @@ const services: Services[] = [
     word: "IT Infrastructure & Security Management",
     description:
       "We specialize in managing secure and scalable IT environments, ensuring seamless operations and robust data protection. Our services include network management, server maintenance, cloud infrastructure, and advanced cybersecurity solutions to safeguard your business from evolving threats.",
+    Icon: FaShieldAlt, // Shield icon for security
   },
   {
     num: 2,
     word: "Web Solutions",
     description:
       "Our web solutions are tailored to create engaging, responsive, and user-friendly digital platforms. From e-commerce stores to corporate websites and custom web applications, we combine innovative design with robust functionality to bring your ideas to life.",
+    Icon: FaLaptopCode, // Laptop with code icon for web development
   },
   {
     num: 3,
     word: "Consultancy Services",
     description:
       "Our consultancy services provide expert guidance to help businesses optimize their strategies and processes. We collaborate closely with you to identify challenges, craft innovative solutions, and achieve sustainable growth in a competitive marketplace.",
+    Icon: FaLightbulb, // Lightbulb icon for ideas and consultancy
   },
   {
     num: 4,
-    word: "Search Engine Optimization",
+    word: "Job Hub",
     description:
-      "We drive your online success by improving your website's visibility and search engine rankings. Our comprehensive SEO strategies include keyword optimization, content development, and technical SEO to attract the right audience and boost organic traffic.",
+      "A comprehensive platform designed to bridge the gap between job seekers and employers. Job Hub provides a user-friendly interface to search, apply for, and post jobs, while offering advanced features like resume building, skill matching, and career guidance.",
+    Icon: FaBriefcase, // Briefcase icon for jobs
   },
   {
     num: 5,
     word: "Online Reputation Management",
     description:
       "Your online reputation is vital to your brand's success. We help build and protect your digital presence by managing reviews, addressing negative feedback, and crafting positive narratives to ensure your credibility and trustworthiness.",
+    Icon: FaThumbsUp, // Thumbs up icon for reputation
   },
   {
     num: 6,
     word: "Corporate Trainings",
     description:
       "Our corporate training programs are designed to enhance team productivity, leadership skills, and technical expertise. Through tailored sessions, we empower your workforce to adapt, innovate, and thrive in today's fast-paced business environment.",
+    Icon: FaChalkboardTeacher, // Teacher icon for training
   },
 ];
 
@@ -216,7 +239,7 @@ const clients: Clients[] = [
 
 export {
   navLinks,
-  images,
+  bannerImages,
   aboutOptions,
   faqs,
   features,

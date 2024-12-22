@@ -7,11 +7,11 @@ export default function Partners() {
       <div className="flex flex-col items-center py-5">
         <div className="text-[36px] font-semibold w-fit">
           Our
-          <span className="ml-3 bg-clip-text bg-gradient-to-t from-blue-500 to-indigo-900 font-semibold text-transparent">
+          <span className="ml-3 bg-clip-text bg-gradient-to-t from-primary3 to-primary2 font-semibold text-transparent">
             Partners
           </span>
         </div>
-        <div className="h-[8px] w-[100px] bg-blue-500 rounded-md"></div>
+        <div className="h-[8px] w-[100px] bg-primary2 rounded-md"></div>
       </div>
       <div className="w-full flex justify-center">
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 place-items-center gap-4 w-[80%]">

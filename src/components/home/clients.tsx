@@ -13,8 +13,8 @@ export default function Clients() {
     >
       <h1 className="text-[38px]">
         We Have Clients In{" "}
-        <span className="bg-clip-text bg-gradient-to-t from-blue-500 to-indigo-900 font-semibold text-transparent">
-          The <br /> UK, US and Africa
+        <span className="bg-clip-text bg-gradient-to-t from-primary3 to-primary2 font-semibold text-transparent">
+          All Sectors
         </span>{" "}
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 place-content-center md:gap-x-[150px]">
