@@ -21,6 +21,7 @@ const nextConfig = withVideos({
         hostname: "images.pexels.com",
       },
       { protocol: "https", hostname: "cpnltd.com.ng" },
+      { protocol: "https", hostname: "cpms.com.ng" },
     ],
   },
 });

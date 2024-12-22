@@ -1,9 +1,9 @@
 import WhoWeAre from "@/components/about/who-we-are";
 import Image from "next/image";
+import OurCulture from "@/components/about/culture";
 import WhatWeOffer from "@/components/about/what-we-offer";
 import JoinUs from "@/components/common/join-us";
 import Values from "@/components/about/values";
-import OurCulture from '@/components/about/culture';
 const About = () => {
   return (
     <div className="w-full">
@@ -11,7 +11,6 @@ const About = () => {
         <div className="flex flex-col items-center md:items-start gap-6 md:w-3/5 text-center md:text-left">
           <h1 className="font-semibold text-3xl md:text-5xl leading-snug md:leading-tight">
             Committed to{" "}
-            <span className="text-orange-500">growing your business</span> with
             <span className="text-primary2">growing your business</span> with
             incremental partnerships
           </h1>

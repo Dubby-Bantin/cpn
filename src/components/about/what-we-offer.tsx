@@ -5,7 +5,7 @@ import { sectors } from "@/lib/constants";
 
 const LeftSection = () => (
   <div className="left-section md:w-1/2">
-    <h1 className="mb-3 font-semibold text-3xl text-primary-orange md:text-4xl">What We Offer</h1>
+    <h1 className="mb-3 font-semibold text-3xl md:text-4xl">What We Offer</h1>
     <div className="bg-white rounded-sm w-20 h-2" />
     <p className="py-10 text-sm">
       We provide first-class contact center services from our ultramodern
@@ -70,7 +70,7 @@ const SectorList = () => (
 
 const WhatWeOffer = () => {
   return (
-    <div className="relative flex justify-center items-center bg-primary-blue mb-10 py-10 h-fit container">
+    <div className="relative flex justify-center items-center py-10 h-fit container">
       <div className="flex flex-col justify-center items-center gap-10 bg-darkBlue px-10 py-10 w-[90%] h-fit text-white">
         <div className="flex flex-wrap justify-center items-center gap-20 px-3 py-10 w-full h-fit text-white">
           <LeftSection />

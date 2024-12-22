@@ -35,7 +35,7 @@ const FAQItem = ({ question, answer, Icon }: FAQItemProps) => {
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3 }}
           >
-            <div className="px-4 py-3">{answer}</div>
+            <div className="px-4 py-3 font-la text-sm">{answer}</div>
           </motion.div>
         )}
       </AnimatePresence>

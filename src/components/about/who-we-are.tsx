@@ -2,7 +2,7 @@ const WhoWeAre = () => {
   return (
     <div className="flex flex-wrap justify-center items-center py-10 container">
       <div className="left-section px-20 md:w-1/2">
-        <h1 className="mb-3 font-semibold text-3xl text-orange-500 md:text-4xl">Who We Are</h1>
+        <h1 className="mb-3 font-semibold text-3xl md:text-4xl">Who We Are</h1>
         <div className="bg-darkBlue rounded-sm w-20 h-3" />
         <p className="py-5">
           At Outsource Global, we believe in building partnerships with

@@ -9,16 +9,16 @@ import { services } from "@/lib/constants";
 
 export default function Services() {
   return (
-    <div className="flex flex-col gap-10 p-5 md:p-[50px] bg-[#ffeded]">
+    <div className="flex flex-col gap-10 bg-[#ffeded] p-5 md:p-[50px]">
       {/* Section Title */}
       <div className="flex flex-col">
-        <div className="text-[28px] md:text-[36px] font-semibold w-fit">
+        <div className="w-fit font-semibold text-[28px] md:text-[36px]">
           Services
-          <span className="ml-2 bg-clip-text bg-gradient-to-t from-primary3 to-primary2 font-semibold text-transparent">
+          <span className="bg-clip-text bg-gradient-to-t from-primary3 to-primary2 ml-2 font-semibold text-transparent">
             We Provide
           </span>
         </div>
-        <div className="h-[8px] w-[120px] md:w-[150px] bg-primary2 rounded-md"></div>
+        <div className="bg-primary2 rounded-md w-[120px] md:w-[150px] h-[8px]"></div>
       </div>
 
       {/* Swiper Slider */}
@@ -35,7 +35,7 @@ export default function Services() {
             },
             768: {
               slidesPerView: 2,
-              spaceBetween: 30
+              spaceBetween: 30,
             },
             1024: {
               slidesPerView: 2.5,
@@ -56,9 +56,9 @@ export default function Services() {
           {/* Swiper Slides */}
           {services.map(({ word, description, num }, i) => (
             <SwiperSlide key={i}>
-              <div className="flex flex-col min-h-[400px] md:min-h-[350px] gap-4 p-6 bg-[#ffffffa5] shadow-md rounded-lg">
-                <div className="flex justify-center items-center bg-[#f9cfcf] p-3 w-fit rounded-full">
-                  <p className="flex items-center justify-center bg-primary2 w-[35px] h-[35px] text-white rounded-full">
+              <div className="flex flex-col gap-4 bg-[#ffffffa5] shadow-md p-6 rounded-lg min-h-[400px] md:min-h-[350px]">
+                <div className="flex justify-center items-center bg-[#f9cfcf] p-3 rounded-full w-fit">
+                  <p className="flex justify-center items-center bg-primary2 rounded-full w-[35px] h-[35px] text-white">
                     {num}
                   </p>
                 </div>
@@ -70,8 +70,8 @@ export default function Services() {
           {/* Add more slides as needed */}
         </Swiper>
       </div>
-      <div className="w-full flex justify-center items-center">
-        <div className="cursor-pointer rounded-md bg-primary2 w-fit py-3 px-6 text-[16px] font-[500] text-white">
+      <div className="flex justify-center items-center w-full">
+        <div className="bg-primary2 px-6 py-3 rounded-md w-fit font-[500] text-[16px] text-white cursor-pointer">
           Our Services
         </div>
       </div>
