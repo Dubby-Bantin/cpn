@@ -17,113 +17,130 @@ const Footer = () => (
             />
           </Link>
           <div className="mt-5">
-            <h3 className="mb-2 font-bold text-lg">Abuja</h3>
+            <h3 className="mb-2 font-bold text-lg">Owerri</h3>
             <address className="text-sm not-italic">
-              2nd Floor, ASTA GALLERY
+              57 Okigwe Road,
               <br />
-              Plot 1185, Parkway Road,
+              Opposite Government Secondary School,
               <br />
-              Cadastral Zone, Mabushi District,
-              <br />
-              Abuja FCT, Nigeria
+              Owerri, Imo State.
             </address>
-          </div>
-          <div className="mt-5">
-            <h3 className="font-bold text-lg">Lagos</h3>
-            <address className="text-sm not-italic">
-              295 Herbert Macaulay Way,
-              <br />
-              Alagomeji-Yaba, Lagos
-            </address>
+            <p className="mt-1">08172419716</p>
           </div>
           <div className="flex space-x-4 mt-5 text-2xl text-primary2">
-            <a href="#" aria-label="Facebook">
+            <a
+              href="https://facebook.com/AptechOwerriCenter"
+              aria-label="Facebook"
+            >
               <FaFacebook />
             </a>
-            <a href="#" aria-label="Instagram">
+            <a
+              href="https://instagram.com/aptech.owerri"
+              aria-label="Instagram"
+            >
               <FaInstagram />
             </a>
           </div>
         </div>
 
         <div>
-          <h3 className="mb-4 font-bold text-lg">Kaduna</h3>
+          <h3 className="mb-4 font-bold text-lg">Enugu</h3>
           <address className="text-sm not-italic">
-            47, Kanta Road, Unguwar
+            50 Zik Avenue,
             <br />
-            Rimi, Kaduna State.
+            Opposite HRC Bus Stop,
+            <br />
+            Enugu, Enugu State.
           </address>
-          <div className="mt-5">
-            <h3 className="font-bold text-lg">
-              Outsource Global INC, Mailing Address
-            </h3>
-            <address className="text-sm not-italic">
-              2261 Market Street #4397,
-              <br />
-              San Francisco CA, 94114
-            </address>
+          <p className="mt-1">08148544024</p>
+          <div className="flex space-x-4 mt-5 text-2xl text-primary2">
+            <a
+              href="https://facebook.com/AptechEnuguCenter"
+              aria-label="Facebook"
+            >
+              <FaFacebook />
+            </a>
+            <a href="https://instagram.com/aptechenugu" aria-label="Instagram">
+              <FaInstagram />
+            </a>
           </div>
         </div>
 
         <div>
-          <h3 className="mb-4 font-bold text-lg">Quick Links</h3>
-          <ul className="space-y-2 text-sm">
-            {[
-              "Services",
-              "About Us",
-              "Careers",
-              "Employee ERP",
-              "Leadership",
-            ].map((link, index) => (
-              <li key={index}>
-                <Link href={`/${link.toLowerCase().replace(/\s+/g, "-")}`}>
-                  {link}
-                </Link>
-              </li>
-            ))}
-          </ul>
-          <h3 className="mt-5 font-bold text-lg">Resources</h3>
-          <ul className="space-y-2 text-sm">
-            {["Gallery", "Case Studies", "Privacy Policy", "Articles"].map(
-              (resource, index) => (
-                <li key={index}>
-                  <Link
-                    href={`/${resource.toLowerCase().replace(/\s+/g, "-")}`}
-                  >
-                    {resource}
-                  </Link>
-                </li>
-              )
-            )}
-          </ul>
+          <h3 className="mb-4 font-bold text-lg">Umuahia</h3>
+          <address className="text-sm not-italic">
+            2 Umuwaya Road,
+            <br />
+            Beside Motel De Plaza,
+            <br />
+            Umuahia, Abia State.
+          </address>
+          <p className="mt-1">08159000220</p>
+          <div className="flex space-x-4 mt-5 text-2xl text-primary2">
+            <a
+              href="https://facebook.com/AptechUmuahiaCenter"
+              aria-label="Facebook"
+            >
+              <FaFacebook />
+            </a>
+            <a
+              href="https://instagram.com/aptechumuahia"
+              aria-label="Instagram"
+            >
+              <FaInstagram />
+            </a>
+          </div>
         </div>
 
         <div>
-          <h3 className="mb-4 font-bold text-lg">Quick Contact</h3>
-          <ul className="space-y-2 text-sm">
-            <li>
-              <a href="mailto:info@outsourceglobal.com">
-                info@outsourceglobal.com
-              </a>
-            </li>
-            <li>NG: +234 7006 8876 8723</li>
-            <li>UK: +44 020 8323 5771</li>
-            <li>US: +1-332-207-2865</li>
-          </ul>
-          <h3 className="mt-5 font-bold text-lg">Highlights</h3>
-          <a
-            href="#"
-            className="text-primary2 text-sm hover:text-primary3 underline"
-          >
-            Outsource Global Wins 2021 Service Exporting Award
-          </a>
+          <h3 className="mb-4 font-bold text-lg">Onitsha</h3>
+          <address className="text-sm not-italic">
+            1 Ekwere Ekwu Street,
+            <br />
+            Off Court Road, By CPS,
+            <br />
+            Onitsha, Anambra State.
+          </address>
+          <p className="mt-1">08068466178, 08081579809</p>
+          <div className="flex space-x-4 mt-5 text-2xl text-primary2">
+            <a
+              href="https://facebook.com/AptechOnitshaCenter"
+              aria-label="Facebook"
+            >
+              <FaFacebook />
+            </a>
+            <a
+              href="https://instagram.com/aptechonitsha"
+              aria-label="Instagram"
+            >
+              <FaInstagram />
+            </a>
+          </div>
+          <h3 className="mt-5 font-bold text-lg">Kubwa</h3>
+          <address className="text-sm not-italic">
+            COK Best Limited,
+            <br />
+            Plot 658/659 Arab Road,
+            <br />
+            Kubwa, Abuja.
+          </address>
+          <p className="mt-1">08169658898</p>
+          <div className="flex space-x-4 mt-5 text-2xl text-primary2">
+            <a href="https://facebook.com/AptechKubwa" aria-label="Facebook">
+              <FaFacebook />
+            </a>
+            <a href="https://instagram.com/aptechkubwa" aria-label="Instagram">
+              <FaInstagram />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
 
     <div className="flex justify-center items-center bg-darkBlue py-5 text-white">
       <p className="text-sm">
-        &copy; {new Date().getFullYear()} Outsource Global. All Rights Reserved.
+        &copy; {new Date().getFullYear()} Aptech Computer Education. All Rights
+        Reserved.
       </p>
     </div>
   </div>
