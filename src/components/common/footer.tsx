@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagram } from "react-icons/fa";
 const Footer = () => (
   <div className="bg-[#ffeded]">
     <footer className="px-5 py-10 text-black">
-      <div className="gap-8 grid grid-cols-1 md:grid-cols-4 mx-auto max-w-screen-xl">
+      <div className="gap-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-auto max-w-screen-xl">
         <div>
           <Link href="/" aria-label="Home">
             <Image
@@ -116,6 +116,9 @@ const Footer = () => (
               <FaInstagram />
             </a>
           </div>
+        </div>
+
+        <div>
           <h3 className="mt-5 font-bold text-lg">Kubwa</h3>
           <address className="text-sm not-italic">
             COK Best Limited,
