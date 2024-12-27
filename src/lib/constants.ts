@@ -208,10 +208,6 @@ const services: Services[] = [
 
 const clients: Clients[] = [
   {
-    img: "https://www.outsourceglobal.com/home/whc/lssa.svg",
-    text: "Leading Social Security Advocacy Provider in the United States",
-  },
-  {
     img: "https://www.outsourceglobal.com/home/whc/posm.svg",
     text: "Premier Online Social Media and Social Networking Service Company",
   },

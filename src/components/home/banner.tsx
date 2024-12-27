@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import VideoPlayer from "../common/VideoPlayer";
 import Image from "next/image";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 export default function Banner() {
   return (
@@ -16,19 +17,25 @@ export default function Banner() {
       />
       <div className="relative place-items-center md:gap-[20px] lg:gap-[50px] xl:gap-[250px] grid grid-cols-1 md:grid-cols-2 px-3 md:px-0 w-full md:w-[98%] lg:w-[95%] h-full text-white">
         <div className="flex flex-col items-start gap-10">
-          <h1 className="font-bold text-6xl text-gray-700">
-            Africa&apos;s Premier{" "}
-            <span className="text-primary2">Outsourcing</span> Growth Partner
+          <h1 className="font-bold text-4xl text-gray-700">
+            Welcome to{" "}
+            <span className="text-primary2">CenterPoint Network</span>, Your IT
+            Solutions Partner
           </h1>
           <p className="text-gray-900">
-            Africa&apos;s Premier Outsourcing Growth Partner We deploy the
-            best-in-class technology to meet the unique needs of each of our
-            clients. Our solutions are at the cutting edge of contact centre
-            business & knowledge process outsourcing.
+            We provide comprehensive IT services to help businesses thrive in
+            the digital age. Our expert team is dedicated to delivering
+            innovative solutions that drive growth and enhance efficiency.
           </p>
-          <Button size={"lg"} className="text-primary3" variant={"outline"}>
-            Connect With Us
-          </Button>
+          <Link href="/contact">
+            <Button
+              size={"lg"}
+              className="bg-primary2 text-white py-1"
+              variant={"outline"}
+            >
+              Connect With Us
+            </Button>
+          </Link>
         </div>
         <div className="gap-4 grid grid-cols-2 w-full h-[90%]">
           <div className="relative gap-4 grid grid-rows-3 h-full">

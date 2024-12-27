@@ -1,6 +1,5 @@
 import WhoWeAre from "@/components/about/who-we-are";
 import Image from "next/image";
-import OurCulture from "@/components/about/culture";
 import WhatWeOffer from "@/components/about/what-we-offer";
 import JoinUs from "@/components/common/join-us";
 import Values from "@/components/about/values";
@@ -9,15 +8,16 @@ const About = () => {
     <div className="w-full">
       <div className="relative flex md:flex-row flex-col justify-between items-center gap-10 md:gap-20 mb-20 md:mb-0 px-6 md:px-20 py-10 w-full md:h-[30rem]">
         <div className="flex flex-col items-center md:items-start gap-6 md:w-3/5 text-center md:text-left">
-          <h1 className="font-semibold text-3xl md:text-5xl leading-snug md:leading-tight">
+          <h1 className="font-semibold text-3xl md:text-4xl leading-snug md:leading-tight">
             Committed to{" "}
             <span className="text-primary2">growing your business</span> with
             incremental partnerships
           </h1>
           <p className="text-gray-800 text-sm md:text-base leading-relaxed">
-            We are the first ISO-compliant commercial delivery center in West
-            Africa, and the first Nigerian international contact center serving
-            the US, UK, and Japan markets.
+            Center Point Network LTD delivers innovative IT solutions for
+            industries like government, corporate, oil & gas, SMEs, and retail.
+            We enhance operations and customer relationships with tailored
+            technology, driving excellence and meeting unique client needs.
           </p>
         </div>
 
@@ -40,7 +40,6 @@ const About = () => {
           </div>
         </div>
       </div>
-      <OurCulture />
       <WhoWeAre />
       <WhatWeOffer />
       <Values />

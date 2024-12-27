@@ -12,7 +12,7 @@ const NavBar = () => {
   return (
     <header
       className={
-        "bg-white top-0 z-[999] py-2 sticky w-full px-5 flex justify-between items-center p-1 transition-all duration-300"
+        "bg-white top-0 z-[999] py-2 sticky w-full px-12 flex justify-between items-center p-1 transition-all duration-300"
       }
     >
       <Link href="/" className="h-auto overflow-visible">
@@ -27,7 +27,7 @@ const NavBar = () => {
         />
       </Link>
 
-      <nav className="relative md:flex items-center gap-5 hidden dark:text-white">
+      <nav className="relative md:flex items-center gap-7 hidden dark:text-white">
         {navLinks.map(({ name, path }) => (
           <Link
             key={path}
@@ -53,7 +53,7 @@ const NavBar = () => {
       </nav>
       <Link
         href="/contact"
-        className="md:block hidden bg-primary2 px-6 py-3 rounded-lg font-[500] text-white"
+        className="md:block hidden bg-primary2 px-6 py-[10px] rounded-lg font-[500] text-white"
       >
         Contact Us
       </Link>

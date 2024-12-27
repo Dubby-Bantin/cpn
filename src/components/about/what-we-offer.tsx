@@ -1,7 +1,5 @@
 import React from "react";
-import { FaCheckCircle } from "react-icons/fa";
 import { SparklesCore } from "../ui/sparkles";
-import { sectors } from "@/lib/constants";
 
 const LeftSection = () => (
   <div className="left-section md:w-1/2">
@@ -14,18 +12,11 @@ const LeftSection = () => (
       quality, low-cost and scalable solutions.
     </p>
     <p className="py-10 text-sm">
-      We help our clients become operationally efficient and competitive. We
-      have created over 1000 direct graduate jobs for customer care executives,
-      sales, marketing, tech, accounting, legal practitioners and medical
-      professionals serving the global market. Outsource Global seeks to
-      positively impact the world of business, by fostering exponential growth.
-    </p>
-    <p className="py-10 text-sm">
-      Outsource Global provides accent localization and training so all our
-      agents speak to customers in their respective local accents. Our agents
-      join us with the knowledge that we offer solid career paths, ongoing
-      training and continuous upskilling, to enable them to evolve from
-      telemarketing into specialized, niche services.
+      We are committed to meeting the information technology needs of our
+      clients by providing first class and leading-edge technology that
+      differentiates us from others. Our business paradigm begins with the
+      analysis of the clients’ existing business processes, with the aim of
+      bringing the most efficient workflow solutions.
     </p>
   </div>
 );
@@ -50,21 +41,8 @@ const RightSection = () => (
       We are fully committed to empowering women to develop the skills,
       knowledge and financial status necessary to elevate their standard of
       living. We also focus on recruiting economically and physically challenged
-      individuals, bringing them into a competitive, career-focused workforce.
+      individuals through our job hub, bringing them into a competitive, career-focused workforce.
     </p>
-  </div>
-);
-
-const SectorList = () => (
-  <div className="px- w-[90%]">
-    <h2 className="py-3 font-semibold text-2xl">Sectors We Serve</h2>
-    <div className="justify-center items-center gap-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-      {sectors.map((sector, index) => (
-        <p key={index} className="flex items-center gap-5">
-          <FaCheckCircle /> {sector}
-        </p>
-      ))}
-    </div>
   </div>
 );
 
@@ -76,7 +54,6 @@ const WhatWeOffer = () => {
           <LeftSection />
           <RightSection />
         </div>
-        <SectorList />
       </div>
     </div>
   );

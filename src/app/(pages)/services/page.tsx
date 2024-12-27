@@ -23,7 +23,7 @@ const Services = () => {
             What We Can Provide <span className="text-primary2">For You</span>{" "}
           </h1>
           <p className="">
-            At Outsource Global, we have deep vertical expertise and a unique
+            At Center Point Network, we have deep vertical expertise and a unique
             understanding of industry-specific needs.
           </p>
 
@@ -56,14 +56,14 @@ const Services = () => {
               </li>
               <li>Small business and start-up computing need</li>
             </ul>
-            <div className="flex sm:flex-row flex-col items-center">
+            <div className="flex gap-4 sm:flex-row flex-col items-center">
               <div className="flex flex-col items-center w-96 text-center">
                 <MdOutlineShowChart className="mb-3 text-2xl" />
                 <p className="mb-3 text-primary2 text-xl">
                   Network Infrastructure
                 </p>
                 <p className="text-gray-700 text-sm">
-                  CPMS builds networks that meet clients’ demand for the
+                  CPN builds networks that meet clients’ demand for the
                   structure of extra components which are not strictly necessary
                   to functions in case of failure in other components.
                 </p>
@@ -179,7 +179,7 @@ const Services = () => {
                   an analogue video surveillance system.
                 </p>
                 <p>
-                  Center Point Multi Solutions provides a complete solution of
+                  Center Point Network provides a complete solution of
                   IP cameras, easy to access, secure storage and is a strong and
                   healthy network switching. We shall provide switches that
                   offer what is needed for a robust network.
@@ -378,8 +378,7 @@ const Services = () => {
                   few, whether it’s maximizing the productivity of your
                   employees or improving the quality and capabilities of company
                   personnel, all our interventions have one common DNA i.e.
-                  impacting business outcome. Over the years, Center Point Multi
-                  Solutions Limited has championed the art of impacting business
+                  impacting business outcome. Over the years, Center Point Network has championed the art of impacting business
                   of global clients across multiple sectors through its
                   customized IT security training programs. Our corporate
                   training programs provide holistic solutions related to

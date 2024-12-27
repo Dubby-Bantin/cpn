@@ -26,10 +26,10 @@ export default function AboutSection() {
           consultancy, SEO, online reputatio management, and corporate training.
         </p>
         <p className="text-[15px]">
-          By enhancing operational efficiency, driving innovation, and fostering
-          growth, we help organizations achieve their goals and thrive in a
-          competitive digital landscape. Let me know if you&apos;d like this
-          tailored further!
+          We prioritize quality and security in
+          delivering innovative IT solutions to our clients. With our expertise
+          and cutting-edge technology, we ensure that your business is protected
+          and empowered to thrive in the digital age
         </p>
       </div>
       <div className="relative flex justify-center items-center p-5 md:p-[50px]">

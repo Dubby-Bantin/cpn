@@ -1,5 +1,3 @@
-import Link from "next/link";
-import Image from "next/image";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 const Footer = () => (
@@ -7,16 +5,7 @@ const Footer = () => (
     <footer className="px-5 py-10 text-black">
       <div className="gap-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-auto max-w-screen-xl">
         <div>
-          <Link href="/" aria-label="Home">
-            <Image
-              src="/CPNRed.svg"
-              alt="CPN Logo"
-              width={50}
-              height={50}
-              priority
-            />
-          </Link>
-          <div className="mt-5">
+          <div className="">
             <h3 className="mb-2 font-bold text-lg">Owerri</h3>
             <address className="text-sm not-italic">
               57 Okigwe Road,
@@ -142,7 +131,7 @@ const Footer = () => (
 
     <div className="flex justify-center items-center bg-darkBlue py-5 text-white">
       <p className="text-sm">
-        &copy; {new Date().getFullYear()} Aptech Computer Education. All Rights
+        &copy; {new Date().getFullYear()} Center Point Network. All Rights
         Reserved.
       </p>
     </div>

@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/autoplay";
 import { Autoplay } from "swiper/modules";
 import { services } from "@/lib/constants";
+import Link from "next/link";
 
 export default function Services() {
   return (
@@ -70,11 +71,14 @@ export default function Services() {
           {/* Add more slides as needed */}
         </Swiper>
       </div>
-      <div className="flex justify-center items-center w-full">
+      <Link
+        href="/services"
+        className="flex justify-center items-center w-full"
+      >
         <div className="bg-primary2 px-6 py-3 rounded-md w-fit font-[500] text-[16px] text-white cursor-pointer">
-          Our Services
+          More Services
         </div>
-      </div>
+      </Link>
     </div>
   );
 }
