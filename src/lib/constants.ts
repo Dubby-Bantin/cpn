@@ -233,7 +233,7 @@ const clients = [
   },
 ];
 
-const partners = [
+const partners: Partners[] = [
   "https://tecterminal-delta.vercel.app/assets/nai-C_XOlwe3.png",
   "https://tecterminal-delta.vercel.app/assets/flag-uQTMIAva.png",
   "https://tecterminal-delta.vercel.app/assets/ndc-CPWoiIqu.png",
@@ -261,6 +261,18 @@ const partners = [
   "https://tecterminal-delta.vercel.app/assets/Picture-19-C4GbOdZf.png",
 ];
 
+const countup: Countup[] = [
+  {
+    end: 99,
+    duration: 2.5,
+    text: "Client Satisfaction Guaranteed",
+    symbol: "%",
+  },
+  { end: 120, duration: 2.5, text: "Expert IT Solutions", symbol: "+" },
+  { end: 100, duration: 2.5, text: "Innovative IT Services", symbol: "+" },
+  { end: 100, duration: 2.5, text: "Technical Professionals", symbol: "%" },
+];
+
 export {
   navLinks,
   bannerImages,
@@ -272,4 +284,5 @@ export {
   services,
   clients,
   partners,
+  countup,
 };

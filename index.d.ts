@@ -38,3 +38,11 @@ declare type Services = {
   Icon: React.ElementType;
 };
 
+declare type Partners = string;
+
+declare type Countup = {
+  end: number;
+  duration: number;
+  text: string;
+  symbol: string;
+};

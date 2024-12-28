@@ -44,7 +44,9 @@ const NavBar = () => {
                   initial={{ opacity: 0, scale: 0 }}
                   animate={{ opacity: 1, scale: 1.1 }}
                   transition={{ delay: 0.8 }}
-                  className="top-8 absolute bg-primary2 rounded-full w-1 h-1"
+                  className={`${
+                    path === "/contact" ? "hidden" : "block"
+                  } top-8 absolute bg-primary2 rounded-full w-1 h-1`}
                 />
               )}
             </AnimatePresence>

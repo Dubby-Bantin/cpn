@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "../ui/button";
 import { MailOpen } from "lucide-react";
+import Link from "next/link";
 
 const JoinUs = () => {
   return (
@@ -16,15 +17,17 @@ const JoinUs = () => {
           Grow your business while reducing operational cost and time and
           keeping the core business focus in-house.
         </small>
-        <Button
-          variant={"outline"}
-          size={"lg"}
-          className="flex items-center gap-5"
-        >
-          {" "}
-          <MailOpen />
-          Get In Touch
-        </Button>
+        <Link href="mailto:info@cpnltd.com.ng">
+          <Button
+            variant={"outline"}
+            size={"lg"}
+            className="flex items-center gap-5"
+          >
+            {" "}
+            <MailOpen />
+            Get In Touch
+          </Button>
+        </Link>
       </div>
     </div>
   );

@@ -1,3 +1,5 @@
+import { countup } from "@/lib/constants";
+
 const WhoWeAre = () => {
   return (
     <div className="flex flex-wrap justify-center items-center py-10 container">
@@ -27,22 +29,15 @@ const WhoWeAre = () => {
         </p>
       </div>
       <div className="right-section gap-x-10 grid grid-cols-2 md:w-1/2">
-        <div className="flex flex-col gap-5 py-10">
-          <p className="font-semibold text-3xl text-darkBlue">50%</p>
-          <small className="">Female Employees</small>
-        </div>
-        <div className="flex flex-col gap-5 py-10">
-          <p className="font-semibold text-3xl text-darkBlue">90%</p>
-          <small className="">University Graduates</small>
-        </div>
-        <div className="flex flex-col gap-5 py-10">
-          <p className="font-semibold text-3xl text-darkBlue">100%</p>
-          <small className="">Technical Professionals</small>
-        </div>
-        <div className="flex flex-col gap-5 py-10">
-          <p className="font-semibold text-3xl text-darkBlue">1000+</p>
-          <small className="">Employees</small>
-        </div>
+        {countup.map(({ duration, end, text, symbol }, i) => (
+          <div key={i} className="flex flex-col items-center gap-5 py-10">
+            <p className="font-semibold text-3xl text-darkBlue">
+              {end}
+              {symbol}
+            </p>
+            <small className="w-[150px] text-center">{text}</small>
+          </div>
+        ))}
       </div>
     </div>
   );
