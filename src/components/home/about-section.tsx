@@ -45,9 +45,9 @@ export default function AboutSection() {
         <Image
           width={500}
           height={500}
-          src="/images/co-workers.jpg"
+          src="https://images.pexels.com/photos/14314638/pexels-photo-14314638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           alt="what-we-do image"
-          className="relative rounded-2xl w-full h-[320px] object-cover"
+          className="relative rounded-2xl w-full h-[330px] object-cover"
         />
       </div>
     </div>

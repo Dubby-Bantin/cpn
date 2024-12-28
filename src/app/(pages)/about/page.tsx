@@ -32,7 +32,7 @@ const About = () => {
           </div>
           <div className="relative -top-10 border-4 border-primary2 shadow-lg rounded-full w-[15rem] h-[15rem]">
             <Image
-              src="/images/co-workers.jpg"
+              src="https://images.pexels.com/photos/14314638/pexels-photo-14314638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt="Team discussion in progress"
               layout="fill"
               className="rounded-full object-cover"
