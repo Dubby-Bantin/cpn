@@ -1,3 +1,4 @@
+import { partners } from "@/lib/constants";
 import Image from "next/image";
 import React from "react";
 
@@ -5,81 +6,28 @@ export default function Partners() {
   return (
     <div className="flex flex-col gap-5">
       <div className="flex flex-col items-center py-5">
-        <div className="text-[36px] font-semibold w-fit">
+        <div className="w-fit font-semibold text-[36px]">
           Our
-          <span className="ml-3 bg-clip-text bg-gradient-to-t from-primary3 to-primary2 font-semibold text-transparent">
+          <span className="bg-clip-text bg-gradient-to-t from-primary3 to-primary2 ml-3 font-semibold text-transparent">
             Partners
           </span>
         </div>
-        <div className="h-[8px] w-[100px] bg-primary2 rounded-md"></div>
+        <div className="bg-primary2 rounded-md w-[100px] h-[8px]"></div>
       </div>
-      <div className="w-full flex justify-center">
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 place-items-center gap-4 w-[80%]">
-          <Image
-            width={500}
-            height={500}
-            src="/images/hp-logo.png"
-            alt="hp logo"
-            className="w-[150px] rounded-lg"
-          />
-          <Image
-            width={500}
-            height={500}
-            src="/images/cisco-logo.png"
-            alt="hp logo"
-            className="w-[150px] rounded-lg"
-          />
-          <Image
-            width={500}
-            height={500}
-            src="/images/lenovo-logo.png"
-            alt="hp logo"
-            className="w-[150px] rounded-lg"
-          />
-          <Image
-            width={500}
-            height={500}
-            src="/images/dell-logo.png"
-            alt="hp logo"
-            className="w-[150px] rounded-lg"
-          />
-          <Image
-            width={500}
-            height={500}
-            src="/images/oracle-logo.png"
-            alt="hp logo"
-            className="w-[150px] rounded-lg"
-          />
-          <Image
-            width={500}
-            height={500}
-            src="/images/ibm-logo.png"
-            alt="hp logo"
-            className="w-[150px] rounded-lg"
-          />
-          <Image
-            width={500}
-            height={500}
-            src="/images/mircosoft-logo.png"
-            alt="hp logo"
-            className="w-[150px] rounded-lg"
-          />
-          <Image
-            width={500}
-            height={500}
-            src="/images/sky-logo.png"
-            alt="hp logo"
-            className="w-[150px] rounded-lg"
-          />
-          <Image
-            width={500}
-            height={500}
-            src="/images/vmware-logo.png"
-            alt="hp logo"
-            className="w-[150px] rounded-lg"
-          />
+      <section className="flex flex-col gap-10 p-5 md:p-[50px]">
+        <div className="flex flex-wrap justify-center items-center gap-4 mt-2">
+          {partners.map((img, i) => (
+            <Image
+              key={i}
+              width={100}
+              height={100}
+              src={img}
+              alt="logos"
+              className="w-[8rem]"
+            />
+          ))}
         </div>
-      </div>
+      </section>
     </div>
   );
 }

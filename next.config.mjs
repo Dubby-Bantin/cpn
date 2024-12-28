@@ -22,6 +22,7 @@ const nextConfig = withVideos({
       },
       { protocol: "https", hostname: "cpnltd.com.ng" },
       { protocol: "https", hostname: "cpms.com.ng" },
+      { protocol: "https", hostname: "tecterminal-delta.vercel.app" },
     ],
   },
 });

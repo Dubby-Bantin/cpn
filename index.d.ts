@@ -38,7 +38,3 @@ declare type Services = {
   Icon: React.ElementType;
 };
 
-declare type Clients = {
-  text: string;
-  img: string;
-};

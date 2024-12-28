@@ -206,7 +206,7 @@ const services: Services[] = [
   },
 ];
 
-const clients: Clients[] = [
+const clients = [
   {
     img: "https://www.outsourceglobal.com/home/whc/posm.svg",
     text: "Premier Online Social Media and Social Networking Service Company",
@@ -233,6 +233,34 @@ const clients: Clients[] = [
   },
 ];
 
+const partners = [
+  "https://tecterminal-delta.vercel.app/assets/nai-C_XOlwe3.png",
+  "https://tecterminal-delta.vercel.app/assets/flag-uQTMIAva.png",
+  "https://tecterminal-delta.vercel.app/assets/ndc-CPWoiIqu.png",
+  "https://tecterminal-delta.vercel.app/assets/apin-DSoD6OeB.png",
+  "https://tecterminal-delta.vercel.app/assets/palla-2neWUI_U.png",
+  "https://tecterminal-delta.vercel.app/assets/unicef-C0uKJVbM.png",
+  "https://tecterminal-delta.vercel.app/assets/sfh-BoDKplUl.png",
+  "https://tecterminal-delta.vercel.app/assets/eedc-Dh65wk4d.png",
+  "https://tecterminal-delta.vercel.app/assets/coatarm-BCv8UgNe.png",
+  "https://tecterminal-delta.vercel.app/assets/Picture-3-D0MG7i2d.png",
+  "https://tecterminal-delta.vercel.app/assets/Picture-4-BmLtSJsd.png",
+  "https://tecterminal-delta.vercel.app/assets/Picture5-D-AnodAy.png",
+  "https://tecterminal-delta.vercel.app/assets/Picture-6-zCCmL35u.png",
+  "https://tecterminal-delta.vercel.app/assets/Picture-7-BqHGzfoq.png",
+  "data:image/png;base64,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",
+  "https://tecterminal-delta.vercel.app/assets/Picture-9-BTDRt1pK.png",
+  "https://tecterminal-delta.vercel.app/assets/Picture-10-YOhKzRWs.png",
+  "https://tecterminal-delta.vercel.app/assets/Picture-CTG5QV1p.png",
+  "https://tecterminal-delta.vercel.app/assets/Picture-11-BnWxb0E-.png",
+  "https://tecterminal-delta.vercel.app/assets/Picture-12-DuokV8RI.png",
+  "https://tecterminal-delta.vercel.app/assets/Picture-13-B_8HHGA6.png",
+  "https://tecterminal-delta.vercel.app/assets/Picture-14-D60ioJmY.png",
+  "https://tecterminal-delta.vercel.app/assets/Picture-15-DOIReWC8.png",
+  "https://tecterminal-delta.vercel.app/assets/Picture-16-D2gTKkYD.png",
+  "https://tecterminal-delta.vercel.app/assets/Picture-19-C4GbOdZf.png",
+];
+
 export {
   navLinks,
   bannerImages,
@@ -243,4 +271,5 @@ export {
   values,
   services,
   clients,
+  partners,
 };

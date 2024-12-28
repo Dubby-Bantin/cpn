@@ -17,7 +17,7 @@ export default function Clients() {
           All Sectors
         </span>{" "}
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 place-content-center md:gap-x-[150px]">
+      <div className="place-content-center md:gap-x-[150px] grid grid-cols-1 md:grid-cols-2">
         {clients.map(({ text, img }, i) => (
           <div className="flex items-center gap-6 p-6" key={i}>
             <Image width={50} height={50} src={img} alt="logos" className="w-[70px]"/>
