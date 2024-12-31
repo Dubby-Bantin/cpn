@@ -29,7 +29,7 @@ const WhoWeAre = () => {
         </p>
       </div>
       <div className="right-section gap-x-10 grid grid-cols-2 md:w-1/2">
-        {countup.map(({ duration, end, text, symbol }, i) => (
+        {countup.map(({ end, text, symbol }, i) => (
           <div key={i} className="flex flex-col items-center gap-5 py-10">
             <p className="font-semibold text-3xl text-darkBlue">
               {end}

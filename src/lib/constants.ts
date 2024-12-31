@@ -273,6 +273,88 @@ const countup: Countup[] = [
   { end: 100, duration: 2.5, text: "Technical Professionals", symbol: "%" },
 ];
 
+const leadership: Leadership[] = [
+  // {
+  //   name: "Rosemary Nnedinma Obioha",
+  //   title: "CEO",
+  //   image: "/images/leadership/ceo.jpg",
+  //   bio: "Rosemary Nnedinma Obioha has been at the helm of Center Point Network Ltd. since 2015, first as a member of the board of directors and now as the CEO, steering the company through significant milestones and growth phases. With over ten years of experience in the Information Technology sector, Nnedinma is known for her strategic vision, inspiring leadership, and dedication to fostering a culture of innovation.",
+  //   message: `For Nnedinma Obioha, community development is not just a passion but a calling. She disclosed that empowering Nigerian youths through IT training and education is a dedication for her and a lifestyle for the nation’s growth and development. "I believe that community development is the key to unlocking the potential of our youths. By providing them with the skills and resources they need to succeed, we can help them become positive change-makers in their communities," Obioha, who leads CentrePoint Network, said. She noted that her commitment to community development has also led to the establishment of charitable grants, scholarships, and IT workshops aimed at empowering youths. Obioha, who began her tech sojourn in the United Kingdom, where she earned certifications in IT and worked in accounting and entrepreneurship, disclosed that her journey in tech was not easy, but it was driven by a passion to make a difference. "I believe that technology has the power to transform lives and communities, and I want to be at the forefront of that transformation," she said. However, it was her return to Nigeria that marked the genesis of her impact. After taking over her mother’s computer training institution, Obioha expanded its reach and impact, establishing training centers across West Africa. "I want to bridge the skills gap in West Africa by providing comprehensive IT training that meets the demands of a rapidly evolving industry. I believe that technology has the power to unlock economic opportunities and transform lives." She noted that her focus lies on initiatives that support underprivileged communities and foster social change through technology. Her commitment to empowering Nigerian communities through IT training and education continues to be a testament to the transformation of lives and communities through community development. "My goal is to empower Nigerian youth and bridge the skills gap in our community. I believe that technology has the power to transform lives and communities, and I want to be at the forefront of that transformation." "I want to use technology to make a positive impact in my community. I believe that everyone deserves access to the opportunities and resources that technology provides, regardless of their background or circumstances," Obioha explained.`,
+  // },
+  {
+    name: "Rosemary Nnedinma Obioha",
+    title: "CEO",
+    image: "/images/leadership/ceo.jpg",
+    bio: "Rosemary Nnedinma Obioha has been at the helm of Center Point Network Ltd. since 2015, first as a member of the board of directors and now as the CEO, steering the company through significant milestones and growth phases. With over ten years of experience in the Information Technology sector, Nnedinma is known for her strategic vision, inspiring leadership, and dedication to fostering a culture of innovation.",
+    message: `For Nnedinma Obioha, community development is more than a passion—it’s
+          a calling. As the leader of CentrePoint Network LTD, she is dedicated
+          to empowering Nigerian youth through IT education and training,
+          fostering growth, and driving societal change. “Community development
+          is key to unlocking the potential of our youth. By equipping them with
+          the right skills and resources, we can create positive change-makers,”
+          she shared. Her commitment extends to initiatives like charitable
+          grants, scholarships, and IT workshops aimed at bridging the skills
+          gap in underserved communities. Obioha’s tech journey began in the UK,
+          where she earned IT certifications and worked in accounting and
+          entrepreneurship. Despite challenges, her passion for using technology
+          to transform lives led her to expand her late mother’s computer
+          training institution, establishing training centers across West
+          Africa. “I believe technology can unlock economic opportunities and
+          transform lives. My goal is to empower Nigerian youth and provide
+          access to opportunities, regardless of background,” Obioha explained.
+          Her efforts continue to drive social change, positioning her as a
+          beacon of transformation through technology and education.`,
+  },
+  {
+    name: "Prince Willy Ibiok",
+    title: "COO",
+    image: "/images/leadership/coo.PNG",
+    bio: "Prince Willy Ibiok oversees the company’s daily operations, ensuring efficiency and operational excellence. His expertise in operational management has been instrumental in enhancing productivity and streamlining processes across the organization.",
+  },
+  {
+    name: "Mercy Michael",
+    title: "Regional Accountant",
+    image: "/images/leadership/accountant.jpg",
+    bio: "Mercy Michael is an Accounting professional with over 5 years of experience. She holds a Bachelor’s Degree in Accounting from National Open University of Nigeria. She has worked for different organizations in different sectors of the economy in Abuja. Mercy is currently the Regional Accountant at Center Point Network limited and currently at the final stage of the Institute of Chartered Accountants of Nigeria professional examination.",
+  },
+  {
+    name: "Idoro Praise Oghenefegor",
+    title: "Regional Manager",
+    image: "/images/leadership/idoro.jpeg",
+    bio: "Idoro is a seasoned IT professional with over 12 years of experience in computer networking and security, cloud technologies, data management, and data visualization. His expertise spans critical aspects of IT infrastructure, ensuring seamless connectivity, robust security frameworks, and efficient data operations across various environments. For more than 7 years, Idoro has excelled as an IT Manager, demonstrating exceptional leadership in guiding teams and projects to success. He is adept at strategic planning, resource allocation, and delivering innovative IT solutions that align with organizational goals. His hands-on approach to problem-solving, combined with a deep understanding of emerging technologies, has consistently driven operational excellence and enhanced system performance. Idoro's passion for technology, coupled with his commitment to staying ahead of industry trends, makes him a trusted expert in transforming IT challenges into opportunities for growth and innovation.",
+  },
+  {
+    name: "DORATHY I. MBANEFO",
+    title: "Enugu Center Manager",
+    image: "/images/leadership/enugu.jpg",
+    bio: "Dorathy is a highly skilled Sales IT Center Manager with over nine years of experience in driving sales growth, managing IT operations, and delivering exceptional customer experiences. Her expertise lies in blending technology with strategic sales initiatives to achieve organizational objectives and enhance operational efficiency. With a proven track record of managing high-performing teams, Dorathy excels in creating and executing sales strategies, optimizing IT systems for sales operations, and fostering strong client relationships.",
+  },
+  {
+    name: "HARRY EBIA",
+    title: "Onitsha Center Manager",
+    image: "/images/leadership/onitsha.jpg",
+    bio: "Harry is an accomplished IT Business Manager at the Onitsha Center, with over seven years of dedicated experience in technology education. His expertise spans the design and implementation of impactful learning programs, fostering technical proficiency, and driving innovation in IT training. Harry combines his passion for technology with a keen business acumen to ensure the smooth operation of the center. He is adept at aligning educational initiatives with organizational goals, managing resources efficiently, and building strong partnerships that enhance the center's offerings. Harry’s commitment to empowering learners with cutting-edge skills has made him a trusted figure in tech education.",
+  },
+  {
+    name: "STANLEY DURUEKE",
+    title: "Owerri Center Manager",
+    image: "",
+    bio: "Stanley is a dynamic Center Manager at the Owerri branch, renowned for his expertise in tech education training and business development in IT. With a solid foundation in data management and data visualization, Stanley has amassed over 8 years of hands-on experience, enabling him to deliver innovative solutions and drive organizational growth. In his role, Stanley combines his deep understanding of technology with strategic business insights to oversee the center's operations, enhance training programs, and support the professional development of learners. His proficiency in transforming complex data into actionable insights empowers organizations to make informed decisions, setting him apart as a leader in the IT industry. Stanley's commitment to excellence, coupled with his passion for education and innovation, makes him a cornerstone of success at the Owerri center. His leadership ensures that both clients and trainees achieve their goals in the fast-paced world of technology.",
+  },
+  {
+    name: "UGWU CHUBUZOR",
+    title: "Umuahia Center Manager",
+    image: "",
+    bio: "Chubuzor is an accomplished Center Manager at the Umuahia branch, with a strong background in tech education training and business development in IT. With more than six years of expertise in computer networking, ethical hacking, and CompTIA certifications, he has established himself as a versatile leader in the technology sector. In his role, Chubuzor combines his technical expertise with a passion for education to design and deliver impactful training programs. His in-depth knowledge of ethical hacking and network security ensures that trainees are equipped with cutting-edge skills to thrive in the rapidly evolving IT landscape. Additionally, his proficiency in CompTIA certifications adds value to learners and organizations alike, enhancing their technical capabilities and career prospects. Chubuzor’s leadership at the Umuahia center is defined by his strategic vision, commitment to excellence, and drive to foster innovation. His ability to balance technical acumen with business development skills has been instrumental in the center’s growth and success.",
+  },
+  {
+    name: "URIEL UDO-OBIA C.",
+    title: "Kubwa Center Manager",
+    image: "",
+    bio: "Uriel is a dedicated Center Manager at the Kubwa branch in Abuja, bringing a wealth of experience in tech education training and business development in the field of Information Technology. With over six years of professional expertise at Aptech Computer Education, Uriel has honed his skills in delivering world-class IT training programs and fostering growth in the educational sector. His proficiency lies in designing innovative learning solutions, managing IT training projects, and mentoring individuals to achieve their professional goals. Uriel’s extensive knowledge of Aptech methodologies and certifications enables him to create impactful programs that meet global industry standards, equipping learners with skills that align with the demands of the digital economy. Uriel’s leadership at the Kubwa center is driven by his commitment to excellence, his focus on empowering learners, and his strategic approach to business development. His dedication to advancing IT education has positioned the center as a hub for innovation and skill-building in the Abuja region.",
+  },
+];
+
 export {
   navLinks,
   bannerImages,
@@ -285,4 +367,5 @@ export {
   clients,
   partners,
   countup,
+  leadership,
 };
