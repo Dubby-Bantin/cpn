@@ -1,7 +1,7 @@
 import React from "react";
 import { CiClock2, CiLocationOn, CiMail } from "react-icons/ci";
 import { PiPhoneThin } from "react-icons/pi";
-import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
+// import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import Link from "next/link";
 
 const Contact = () => {
@@ -14,7 +14,7 @@ const Contact = () => {
             <div className="flex items-center gap-1">
               <CiLocationOn className="text-[25px]" />
               <p className="text-gray-500">
-                725 5th Ave, New York, NY 10022, USA
+                Plot 658/659 Arab Roa , Kubwa, Abuja.
               </p>
             </div>
           </div>
@@ -22,7 +22,7 @@ const Contact = () => {
             <p className="text-[30px] font-light">Phones</p>
             <div className="flex items-center gap-1">
               <PiPhoneThin className="text-[25px]" />
-              <p className="text-gray-500">712-339-9294</p>
+              <p className="text-gray-500">+2348169658898</p>
             </div>
           </div>
           <div className="flex flex-col gap-4 mb-14">
@@ -38,17 +38,17 @@ const Contact = () => {
             <p className="text-[30px] font-light">Working Hours</p>
             <div className="flex items-center gap-1">
               <CiClock2 className="text-[25px]" />
-              <p className="text-gray-500">Mon-Fri: 10:00 - 18:00</p>
+              <p className="text-gray-500">Mon-Fri: 9:00AM - 5:00PM</p>
             </div>
           </div>
-          <div className="flex flex-col gap-4 mb-14">
+          {/* <div className="flex flex-col gap-4 mb-14">
             <p className="text-[30px] font-light">Follow Us</p>
             <div className="flex items-center gap-5">
               <FaFacebook className="text-[25px]" />
               <FaInstagram className="text-[25px]" />
               <FaYoutube className="text-[25px]" />
             </div>
-          </div>
+          </div> */}
         </div>
         <div>
           <p className="text-[30px] font-light mb-10">Send Your Question</p>

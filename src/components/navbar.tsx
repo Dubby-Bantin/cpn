@@ -17,7 +17,7 @@ const NavBar = () => {
     >
       <Link href="/" className="h-auto overflow-visible">
         <Image
-          src="/Asset 27Blessed.png"
+          src="/Asset 30CPN.png"
           alt="cpn_logo"
           width={110} // Correct width
           height={50} // Correct height
@@ -71,7 +71,7 @@ const NavBar = () => {
             {" "}
             <Link href="/" className="relative -top-2">
               <Image
-                src="/Asset 27Blessed.png"
+                src="/Asset 30CPN.png"
                 alt="cpn_logo"
                 width={110} // Correct width
                 height={50} // Correct height

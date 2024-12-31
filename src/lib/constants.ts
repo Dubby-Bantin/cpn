@@ -290,16 +290,16 @@ const leadership: Leadership[] = [
       "Prince Ibiok is dedicated to creating sustainable technological ecosystems and empowering youths in ICT training and skills development, thereby bridging the digital divide to ensure inclusive growth in the tech industry. Renowned for his proficiency in modern ICT solutions and strategies, he is a strong advocate for technological advancement and digital transformation across industries. He specializes in implementing cutting-edge technologies to improve business processes and service delivery. Spearheaded multiple ICT initiatives to foster technological growth in public and private sectors. Prince Ibiok is a graduate of Computer Science from the University of Lagos. He holds PGD in Marketing/Business Administration from the NIJ, Ogba Lagos, and PGD in Computer Science and Software Engineering from Lagos State University, Ojo. From 1996 – 1997, he worked as the Network Administrator with Honeywell Group Limited, Lagos. He also worked with Provast Limited, an SPDC Joint Venture (JV) between 1997 and 1998. He worked as a Computer/IT manager. From 1998 – 2003, he worked with Bua International Limited (Bua Group) as the Computer/IT manager. From July 2003 to July 2005, he worked with SIOtel as the Group Sales Representative, overseeing sales and marketing nationally. From 2006 to 2017, he worked with Aptech Worldwide, under franchise arrangement as Centre Manager, and implemented their branches in five (5) states in Nigeria. He also worked with Maxfront Technologies Limited as General Manager, Marketing and Strategies from 2018 to 2023, and rose to Executive Director. During this period, he was seconded to the Akwa Ibom State Tourism Board as Consultant on Hotels Management, Tourism and Hospitality. He joined CPMS Group in April 2024 as the Chief Operating Officer (COO). He is an alumnus of Lagos Business School",
   },
   {
-    name: "Mercy Michael",
-    title: "Regional Accountant",
-    image: "/images/leadership/accountant.jpg",
-    bio: "Mercy Michael is an Accounting professional with over 5 years of experience. She holds a Bachelor’s Degree in Accounting from National Open University of Nigeria. She has worked for different organizations in different sectors of the economy in Abuja. Mercy is currently the Regional Accountant at Center Point Network limited and currently at the final stage of the Institute of Chartered Accountants of Nigeria professional examination.",
-  },
-  {
     name: "Idoro Praise Oghenefegor",
     title: "Regional Manager",
     image: "/images/leadership/idoro.jpeg",
     bio: "Idoro is a seasoned IT professional with over 12 years of experience in computer networking and security, cloud technologies, data management, and data visualization. His expertise spans critical aspects of IT infrastructure, ensuring seamless connectivity, robust security frameworks, and efficient data operations across various environments. For more than 7 years, Idoro has excelled as an IT Manager, demonstrating exceptional leadership in guiding teams and projects to success. He is adept at strategic planning, resource allocation, and delivering innovative IT solutions that align with organizational goals. His hands-on approach to problem-solving, combined with a deep understanding of emerging technologies, has consistently driven operational excellence and enhanced system performance. Idoro's passion for technology, coupled with his commitment to staying ahead of industry trends, makes him a trusted expert in transforming IT challenges into opportunities for growth and innovation.",
+  },
+  {
+    name: "Mercy Michael",
+    title: "Regional Accountant",
+    image: "/images/leadership/accountant.jpg",
+    bio: "Mercy Michael is an Accounting professional with over 5 years of experience. She holds a Bachelor’s Degree in Accounting from National Open University of Nigeria. She has worked for different organizations in different sectors of the economy in Abuja. Mercy is currently the Regional Accountant at Center Point Network limited and currently at the final stage of the Institute of Chartered Accountants of Nigeria professional examination.",
   },
   {
     name: "DORATHY I. MBANEFO",
