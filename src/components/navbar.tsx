@@ -12,7 +12,7 @@ const NavBar = () => {
   return (
     <header
       className={
-        "bg-white top-0 z-[999] py-2 sticky w-full px-9 2xl:px-12 flex justify-between items-center p-1 transition-all duration-300"
+        "bg-white top-0 z-[999] py-2 sticky w-full px-3 md:px-9 2xl:px-12 flex justify-between items-center p-1 transition-all duration-300"
       }
     >
       <Link href="/" className="h-auto overflow-visible">

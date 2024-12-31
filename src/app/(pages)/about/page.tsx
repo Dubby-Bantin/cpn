@@ -43,9 +43,8 @@ const About = () => {
       <WhoWeAre />
       <WhatWeOffer />
       <Values />
-      <div className="md:px-20 py-10">
-        <JoinUs />
-      </div>
+
+      <JoinUs />
     </div>
   );
 };

@@ -1,3 +1,4 @@
+import JoinUs from "@/components/common/join-us";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
@@ -37,7 +38,7 @@ export default function Leadership() {
           </p>
         </div>
       </div>
-      <div className="py-10">
+      <div className="w-full flex justify-center py-10">
         <div className="place-items-center gap-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-[90%]">
           {leadership.map(({ name, title, message, image, bio }, i) => (
             <Dialog key={i}>
@@ -56,10 +57,12 @@ export default function Leadership() {
                 </h1>
                 <h3 className="text-[14px] text-gray-500">{title}</h3>
                 <DialogTrigger asChild>
-                  <Button variant={"link"}>Read Bio</Button>
+                  <Button className="text-primary2 underline" variant={"link"}>
+                    Read Bio
+                  </Button>
                 </DialogTrigger>
-                <DialogContent className="">
-                  <DialogHeader>
+                <DialogContent className="w-[90%] md:w-[80%] h-[560px] overflow-hidden md:h-[450px] rounded-lg">
+                  <DialogHeader className="hidden">
                     <DialogTitle>Are you absolutely sure?</DialogTitle>
                     <DialogDescription>hllo</DialogDescription>
                   </DialogHeader>
@@ -74,18 +77,18 @@ export default function Leadership() {
                             : "/images/leadership/user.avif"
                         }
                         alt="name"
-                        className="object-top rounded-full w-[200px] h-[200px] object-cover"
+                        className="object-top rounded-full w-[150px] h-[150px] md:w-[200px] md:h-[200px] object-cover"
                       />
                       <h1 className="font-semibold text-[15px]">
                         {name.toLocaleUpperCase()}
                       </h1>
                       <h3 className="text-[14px] text-gray-500">{title}</h3>
                     </div>
-                    <div className="h-full overflow-y-scroll ceo">
+                    <div className="h-[400px] overflow-y-scroll ceo md:pt-4">
                       <div className={`${message && "mb-10"}`}>{bio}</div>
                       <div>
-                        {message && (
-                          <h1 className="mb-2 font-semibold text-[15x] text-center">
+                        {message && i === 0 && (
+                          <h1 className="mb-2 font-semibold text-[15px] text-center">
                             MESSAGE FROM THE CEO
                           </h1>
                         )}
@@ -93,13 +96,14 @@ export default function Leadership() {
                       </div>
                     </div>
                   </div>
-                  <DialogFooter>hello</DialogFooter>
+                  <DialogFooter className="hidden">hello</DialogFooter>
                 </DialogContent>
               </div>
             </Dialog>
           ))}
         </div>
       </div>
+      <JoinUs />
     </div>
   );
 }
