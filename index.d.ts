@@ -46,3 +46,11 @@ declare type Countup = {
   text: string;
   symbol: string;
 };
+
+declare type Leadership = {
+  name: string;
+  title: string;
+  bio: string;
+  image: string;
+  message?: string;
+}
