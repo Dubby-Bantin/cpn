@@ -21,8 +21,8 @@ const navLinks: NavLinks[] = [
   { name: "Home", path: "/", Icon: Home },
   { name: "About us", path: "/about", Icon: Info },
   { name: "Services", path: "/services", Icon: UserCog },
-  { name: "Educational", path: "educational", Icon: UserCog },
-  { name: "Leadership", path: "leadership", Icon: UserCog },
+  { name: "Educational", path: "/educational", Icon: UserCog },
+  { name: "Leadership", path: "/leadership", Icon: UserCog },
   { name: "Contact Us", path: "/contact", Icon: Phone },
 ];
 
