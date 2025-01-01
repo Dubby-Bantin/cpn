@@ -69,19 +69,19 @@ export default function Educational() {
                   <DialogDescription>hllo</DialogDescription>
                 </DialogHeader>
                 <div className="h-full overflow-y-scroll ceo2 grid gap-10 grid-cols-1 place-item-center sm:grid-cols-2 lg:grid-cols-3">
-                  {courses.map((course, j) => (
+                  {courses.map(({ name, img }, j) => (
                     <div
                       key={j}
-                      className="flex flex-col h-fit shadow-lg border rounded-md"
+                      className="flex flex-col h-fit shadow-lg border rounded-md cursor-pointer"
                     >
                       <Image
                         width={100}
                         height={100}
-                        src={course.img}
+                        src={img}
                         alt="name"
                         className="w-full h-[200px] md:h-[150px] rounded-t-md object-top object-cover"
                       />
-                      <p className="p-3 text-[14px]">{course.name}</p>
+                      <p className="p-3 text-[14px]">{name}</p>
                     </div>
                   ))}
                 </div>

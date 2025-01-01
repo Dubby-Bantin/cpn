@@ -43,7 +43,6 @@ const About = () => {
       <WhoWeAre />
       <WhatWeOffer />
       <Values />
-
       <JoinUs />
     </div>
   );

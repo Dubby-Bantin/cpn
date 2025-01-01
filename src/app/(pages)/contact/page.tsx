@@ -3,6 +3,7 @@ import { CiClock2, CiLocationOn, CiMail } from "react-icons/ci";
 import { PiPhoneThin } from "react-icons/pi";
 // import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import Link from "next/link";
+import ContactForm from "@/components/contact/contactForm";
 
 const Contact = () => {
   return (
@@ -52,34 +53,7 @@ const Contact = () => {
         </div>
         <div>
           <p className="text-[30px] font-light mb-10">Send Your Question</p>
-          <form>
-            <div className="flex flex-col gap-2 mb-8">
-              <label htmlFor="name">Your Name</label>
-              <input
-                type="text"
-                className="h-[50px] bg-transparent border border-gray-400 outline-none text-[18px] px-5"
-              />
-            </div>
-            <div className="flex flex-col gap-2 mb-8">
-              <label htmlFor="email">Your Email</label>
-              <input
-                type="email"
-                className="h-[50px] bg-transparent border border-gray-400 outline-none text-[18px] px-5"
-              />
-            </div>
-            <div className="flex flex-col gap-2 mb-8">
-              <label htmlFor="message">Your Message</label>
-              <textarea
-                name="message"
-                cols={50}
-                rows={10}
-                className="p-4 bg-transparent border border-gray-400 outline-none text-[18px]"
-              ></textarea>
-            </div>
-            <button className="h-[50px] bg-transparent border border-black outline-none text-[18px] w-full px-5 cursor-pointer">
-              Submit
-            </button>
-          </form>
+          <ContactForm />
         </div>
       </div>
     </div>

@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { Menu } from "lucide-react";
 import { navLinks } from "@/lib/constants";
-import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "./ui/sheet";
-import { Button } from "./ui/button";
+import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "../ui/sheet";
+import { Button } from "../ui/button";
 import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "motion/react";
 const NavBar = () => {

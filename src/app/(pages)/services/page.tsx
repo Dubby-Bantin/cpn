@@ -17,7 +17,7 @@ import Image from "next/image";
 const Services = () => {
   return (
     <div>
-      <div className="flex flex-col gap-20 md:px-20 py-10">
+      <div className="flex flex-col gap-20 md:px-10 py-10">
         <div className="flex md:flex-row flex-col justify-between items-start px-10 md:px-0 w-full h-full">
           <div className="flex flex-col items-start gap-5 py-20">
             <h1 className="font-semibold text-5xl">
@@ -37,22 +37,22 @@ const Services = () => {
 
         <section className="overflow-hidden">
           <div className="flex sm:flex-row flex-col justify-center items-center">
-            <div className="sm:mb-20 sm:ml-16 p-5 text-center sm:text-left">
+            <div className="p-5 text-center sm:text-left">
               <h1 className="mb-6 font-semibold text-3xl text-center text-primary2 lg:text-4xl lg:text-left lg:leading-[4rem]">
                 Enterprise Infrastructure
               </h1>
               <div className="border-primary2 mb-2 border w-28"></div>
               <p className="mb-5 text-sm">
-                To create the infrastructure that will deliver content to the
+                To create the infrastructure that will deliver <br /> content to the
                 right place at the right time and budget
               </p>
               <ul className="gap-2 grid mb-10 text-gray-700 text-sm list-disc">
                 <li>
-                  Systems integrated and security to protect the integrity and
+                  Systems integrated and security to protect the <br /> integrity and
                   privacy of shared content across network
                 </li>
                 <li>
-                  High-end and mid range enterprise server installation and
+                  High-end and mid range enterprise server installation <br /> and
                   configuration
                 </li>
                 <li>Small business and start-up computing need</li>
@@ -90,7 +90,7 @@ const Services = () => {
                 "https://cpms.com.ng/wp-content/uploads/2020/09/33801-2048x2048.jpg"
               }
               alt=""
-              className="h-[30rem] object-contain"
+              className="max-h-[22rem] object-contain"
             />
           </div>
 
