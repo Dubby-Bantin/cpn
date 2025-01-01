@@ -54,3 +54,15 @@ declare type Leadership = {
   image: string;
   message?: string;
 }
+
+declare type Course = {
+  name: string;
+  img: string;
+};
+
+declare type Educational = {
+  title: string;
+  amount: number;
+  image: string;
+  courses: Course[];
+};

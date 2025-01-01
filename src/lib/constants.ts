@@ -333,6 +333,92 @@ const leadership: Leadership[] = [
   },
 ];
 
+const educational: Educational[] = [
+  {
+    title: "Career Courses",
+    amount: 5,
+    image: "/images/educational/career.jpg",
+    courses: [
+      {
+        name: "Advanced Diploma in Multimedia",
+        img: "https://aptech-nigeria.com/wp-content/uploads/2023/05/ADIM-COURSE-OUTLINE-960x760.jpg",
+      },
+      {
+        name: "Aptech Certified Network Specialist",
+        img: "https://aptech-nigeria.com/wp-content/uploads/2023/03/acns-960x760.jpg",
+      },
+      {
+        name: "Arena MultiMedia Specialist Course",
+        img: "https://aptech-nigeria.com/wp-content/uploads/2023/03/multimedia-1-960x760.jpg",
+      },
+      {
+        name: "Aptech Certified Computer Professional",
+        img: "https://aptech-nigeria.com/wp-content/uploads/2023/04/accp-1-960x760.jpg",
+      },
+      {
+        name: "Advanced Diploma in Software Engineering",
+        img: "https://media.licdn.com/dms/image/v2/C4E1BAQH_XYPk6BwGqg/company-background_10000/company-background_10000/0/1636989488109/aptechajahcentre_cover?e=2147483647&v=beta&t=AdDWw5SkL8hah_uKTtaec7Nw5854gQZZlw9CdCIj93M",
+      },
+    ],
+  },
+  {
+    title: "Smart Professional Courses",
+    amount: 3,
+    image: "/images/educational/professional.jpg",
+    courses: [
+      {
+        name: "JAPA",
+        img: "https://aptech-nigeria.com/wp-content/uploads/2024/03/Aptech-JAPA-Courses-960x760.jpg",
+      },
+      {
+        name: "ACE – STC & Smart Pro",
+        img: "https://aptech-nigeria.com/wp-content/uploads/2023/04/accp-1-960x760.jpg",
+      },
+      {
+        name: "Certified Ethical Hacker",
+        img: "https://aptech-nigeria.com/wp-content/uploads/2022/02/CEH-1-960x760.jpg",
+      },
+    ],
+  },
+  {
+    title: "AI & Data Science",
+    amount: 1,
+    image: "/images/educational/data.jpg",
+    courses: [
+      {
+        name: "AI & Data Science",
+        img: "https://aptech-nigeria.com/wp-content/uploads/2023/05/artificial-intelligence-scaled-960x760.jpg",
+      },
+    ],
+  },
+  {
+    title: "Multimedia Specialist",
+    amount: 2,
+    image: "/images/educational/multimedia.jpg",
+    courses: [
+      {
+        name: "Advanced Diploma in Multimedia",
+        img: "https://aptech-nigeria.com/wp-content/uploads/2023/05/ADIM-COURSE-OUTLINE-960x760.jpg",
+      },
+      {
+        name: "Aptech Certified Network Specialist",
+        img: "https://aptech-nigeria.com/wp-content/uploads/2023/03/multimedia-1-960x760.jpg",
+      },
+    ],
+  },
+  {
+    title: "Networking",
+    amount: 1,
+    image: "/images/educational/networking.jpg",
+    courses: [
+      {
+        name: "Aptech Certified Network Specialist",
+        img: "https://aptech-nigeria.com/wp-content/uploads/2023/03/acns-960x760.jpg",
+      },
+    ],
+  },
+];
+
 export {
   navLinks,
   bannerImages,
@@ -346,4 +432,5 @@ export {
   partners,
   countup,
   leadership,
+  educational,
 };

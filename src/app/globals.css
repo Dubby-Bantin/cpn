@@ -27,17 +27,23 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .ceo::-webkit-scrollbar-thumb {
-  background: #2e3d5b;
-  border-radius: 50px;
-}
-
-.ceo::-webkit-scrollbar-thumb {
   background: #7878a3;
 }
 .ceo::-webkit-scrollbar-thumb:hover {
   background: #7878a3;
 }
 
+.ceo2::-webkit-scrollbar {
+  display: none;
+}
+
+.ceo2::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+.ceo2::-webkit-scrollbar-thumb {
+  display: none;
+}
 
 text {
   color: #ff4444;
