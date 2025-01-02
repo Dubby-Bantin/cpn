@@ -21,8 +21,8 @@ const navLinks: NavLinks[] = [
   { name: "Home", path: "/", Icon: Home },
   { name: "About us", path: "/about", Icon: Info },
   { name: "Services", path: "/services", Icon: UserCog },
-  { name: "Educational", path: "educational", Icon: UserCog },
-  { name: "Leadership", path: "leadership", Icon: UserCog },
+  { name: "Educational", path: "/educational", Icon: UserCog },
+  { name: "Leadership", path: "/leadership", Icon: UserCog },
   { name: "Contact Us", path: "/contact", Icon: Phone },
 ];
 
@@ -274,54 +274,32 @@ const countup: Countup[] = [
 ];
 
 const leadership: Leadership[] = [
-  // {
-  //   name: "Rosemary Nnedinma Obioha",
-  //   title: "CEO",
-  //   image: "/images/leadership/ceo.jpg",
-  //   bio: "Rosemary Nnedinma Obioha has been at the helm of Center Point Network Ltd. since 2015, first as a member of the board of directors and now as the CEO, steering the company through significant milestones and growth phases. With over ten years of experience in the Information Technology sector, Nnedinma is known for her strategic vision, inspiring leadership, and dedication to fostering a culture of innovation.",
-  //   message: `For Nnedinma Obioha, community development is not just a passion but a calling. She disclosed that empowering Nigerian youths through IT training and education is a dedication for her and a lifestyle for the nation’s growth and development. "I believe that community development is the key to unlocking the potential of our youths. By providing them with the skills and resources they need to succeed, we can help them become positive change-makers in their communities," Obioha, who leads CentrePoint Network, said. She noted that her commitment to community development has also led to the establishment of charitable grants, scholarships, and IT workshops aimed at empowering youths. Obioha, who began her tech sojourn in the United Kingdom, where she earned certifications in IT and worked in accounting and entrepreneurship, disclosed that her journey in tech was not easy, but it was driven by a passion to make a difference. "I believe that technology has the power to transform lives and communities, and I want to be at the forefront of that transformation," she said. However, it was her return to Nigeria that marked the genesis of her impact. After taking over her mother’s computer training institution, Obioha expanded its reach and impact, establishing training centers across West Africa. "I want to bridge the skills gap in West Africa by providing comprehensive IT training that meets the demands of a rapidly evolving industry. I believe that technology has the power to unlock economic opportunities and transform lives." She noted that her focus lies on initiatives that support underprivileged communities and foster social change through technology. Her commitment to empowering Nigerian communities through IT training and education continues to be a testament to the transformation of lives and communities through community development. "My goal is to empower Nigerian youth and bridge the skills gap in our community. I believe that technology has the power to transform lives and communities, and I want to be at the forefront of that transformation." "I want to use technology to make a positive impact in my community. I believe that everyone deserves access to the opportunities and resources that technology provides, regardless of their background or circumstances," Obioha explained.`,
-  // },
   {
     name: "Rosemary Nnedinma Obioha",
     title: "CEO",
     image: "/images/leadership/ceo.jpg",
     bio: "Rosemary Nnedinma Obioha has been at the helm of Center Point Network Ltd. since 2015, first as a member of the board of directors and now as the CEO, steering the company through significant milestones and growth phases. With over ten years of experience in the Information Technology sector, Nnedinma is known for her strategic vision, inspiring leadership, and dedication to fostering a culture of innovation.",
-    message: `For Nnedinma Obioha, community development is more than a passion—it’s
-          a calling. As the leader of CentrePoint Network LTD, she is dedicated
-          to empowering Nigerian youth through IT education and training,
-          fostering growth, and driving societal change. “Community development
-          is key to unlocking the potential of our youth. By equipping them with
-          the right skills and resources, we can create positive change-makers,”
-          she shared. Her commitment extends to initiatives like charitable
-          grants, scholarships, and IT workshops aimed at bridging the skills
-          gap in underserved communities. Obioha’s tech journey began in the UK,
-          where she earned IT certifications and worked in accounting and
-          entrepreneurship. Despite challenges, her passion for using technology
-          to transform lives led her to expand her late mother’s computer
-          training institution, establishing training centers across West
-          Africa. “I believe technology can unlock economic opportunities and
-          transform lives. My goal is to empower Nigerian youth and provide
-          access to opportunities, regardless of background,” Obioha explained.
-          Her efforts continue to drive social change, positioning her as a
-          beacon of transformation through technology and education.`,
+    message: `For Nnedinma Obioha, community development is not just a passion but a calling. She disclosed that empowering Nigerian youths through IT training and education is a dedication for her and a lifestyle for the nation’s growth and development. "I believe that community development is the key to unlocking the potential of our youths. By providing them with the skills and resources they need to succeed, we can help them become positive change-makers in their communities," Obioha, who leads CentrePoint Network, said. She noted that her commitment to community development has also led to the establishment of charitable grants, scholarships, and IT workshops aimed at empowering youths. Obioha, who began her tech sojourn in the United Kingdom, where she earned certifications in IT and worked in accounting and entrepreneurship, disclosed that her journey in tech was not easy, but it was driven by a passion to make a difference. "I believe that technology has the power to transform lives and communities, and I want to be at the forefront of that transformation," she said. However, it was her return to Nigeria that marked the genesis of her impact. After taking over her mother’s computer training institution, Obioha expanded its reach and impact, establishing training centers across West Africa. "I want to bridge the skills gap in West Africa by providing comprehensive IT training that meets the demands of a rapidly evolving industry. I believe that technology has the power to unlock economic opportunities and transform lives." She noted that her focus lies on initiatives that support underprivileged communities and foster social change through technology. Her commitment to empowering Nigerian communities through IT training and education continues to be a testament to the transformation of lives and communities through community development. "My goal is to empower Nigerian youth and bridge the skills gap in our community. I believe that technology has the power to transform lives and communities, and I want to be at the forefront of that transformation." "I want to use technology to make a positive impact in my community. I believe that everyone deserves access to the opportunities and resources that technology provides, regardless of their background or circumstances," Obioha explained.`,
   },
   {
     name: "Prince Willy Ibiok",
     title: "COO",
     image: "/images/leadership/coo.PNG",
-    bio: "Prince Willy Ibiok oversees the company’s daily operations, ensuring efficiency and operational excellence. His expertise in operational management has been instrumental in enhancing productivity and streamlining processes across the organization.",
-  },
-  {
-    name: "Mercy Michael",
-    title: "Regional Accountant",
-    image: "/images/leadership/accountant.jpg",
-    bio: "Mercy Michael is an Accounting professional with over 5 years of experience. She holds a Bachelor’s Degree in Accounting from National Open University of Nigeria. She has worked for different organizations in different sectors of the economy in Abuja. Mercy is currently the Regional Accountant at Center Point Network limited and currently at the final stage of the Institute of Chartered Accountants of Nigeria professional examination.",
+    bio: "Prince Willy Ibiok is the Group  COO; a distinguished ICT expert with a deep passion for leveraging technology to drive innovation and development. With extensive experience in information and communication technology, he has established himself as a thought leader and strategist in the field. His Professional Expertise, Contributions and Achievements can be summed up for spearheaded multiple ICT initiatives to foster technological growth in both public and private sectors. Regularly collaborates with stakeholders to design and execute impactful technologydriven programs. A mentor and inspiration for young professionals aspiring to excel in ICT",
+    message:
+      "Prince Ibiok is dedicated to creating sustainable technological ecosystems and empowering youths in ICT training and skills development, thereby bridging the digital divide to ensure inclusive growth in the tech industry. Renowned for his proficiency in modern ICT solutions and strategies, he is a strong advocate for technological advancement and digital transformation across industries. He specializes in implementing cutting-edge technologies to improve business processes and service delivery. Spearheaded multiple ICT initiatives to foster technological growth in public and private sectors. Prince Ibiok is a graduate of Computer Science from the University of Lagos. He holds PGD in Marketing/Business Administration from the NIJ, Ogba Lagos, and PGD in Computer Science and Software Engineering from Lagos State University, Ojo. From 1996 – 1997, he worked as the Network Administrator with Honeywell Group Limited, Lagos. He also worked with Provast Limited, an SPDC Joint Venture (JV) between 1997 and 1998. He worked as a Computer/IT manager. From 1998 – 2003, he worked with Bua International Limited (Bua Group) as the Computer/IT manager. From July 2003 to July 2005, he worked with SIOtel as the Group Sales Representative, overseeing sales and marketing nationally. From 2006 to 2017, he worked with Aptech Worldwide, under franchise arrangement as Centre Manager, and implemented their branches in five (5) states in Nigeria. He also worked with Maxfront Technologies Limited as General Manager, Marketing and Strategies from 2018 to 2023, and rose to Executive Director. During this period, he was seconded to the Akwa Ibom State Tourism Board as Consultant on Hotels Management, Tourism and Hospitality. He joined CPMS Group in April 2024 as the Chief Operating Officer (COO). He is an alumnus of Lagos Business School",
   },
   {
     name: "Idoro Praise Oghenefegor",
     title: "Regional Manager",
     image: "/images/leadership/idoro.jpeg",
     bio: "Idoro is a seasoned IT professional with over 12 years of experience in computer networking and security, cloud technologies, data management, and data visualization. His expertise spans critical aspects of IT infrastructure, ensuring seamless connectivity, robust security frameworks, and efficient data operations across various environments. For more than 7 years, Idoro has excelled as an IT Manager, demonstrating exceptional leadership in guiding teams and projects to success. He is adept at strategic planning, resource allocation, and delivering innovative IT solutions that align with organizational goals. His hands-on approach to problem-solving, combined with a deep understanding of emerging technologies, has consistently driven operational excellence and enhanced system performance. Idoro's passion for technology, coupled with his commitment to staying ahead of industry trends, makes him a trusted expert in transforming IT challenges into opportunities for growth and innovation.",
+  },
+  {
+    name: "Mercy Michael",
+    title: "Regional Accountant",
+    image: "/images/leadership/accountant.jpg",
+    bio: "Mercy Michael is an Accounting professional with over 5 years of experience. She holds a Bachelor’s Degree in Accounting from National Open University of Nigeria. She has worked for different organizations in different sectors of the economy in Abuja. Mercy is currently the Regional Accountant at Center Point Network limited and currently at the final stage of the Institute of Chartered Accountants of Nigeria professional examination.",
   },
   {
     name: "DORATHY I. MBANEFO",
@@ -355,6 +333,92 @@ const leadership: Leadership[] = [
   },
 ];
 
+const educational: Educational[] = [
+  {
+    title: "Career Courses",
+    amount: 5,
+    image: "/images/educational/career.jpg",
+    courses: [
+      {
+        name: "Advanced Diploma in Multimedia",
+        img: "https://aptech-nigeria.com/wp-content/uploads/2023/05/ADIM-COURSE-OUTLINE-960x760.jpg",
+      },
+      {
+        name: "Aptech Certified Network Specialist",
+        img: "https://aptech-nigeria.com/wp-content/uploads/2023/03/acns-960x760.jpg",
+      },
+      {
+        name: "Arena MultiMedia Specialist Course",
+        img: "https://aptech-nigeria.com/wp-content/uploads/2023/03/multimedia-1-960x760.jpg",
+      },
+      {
+        name: "Aptech Certified Computer Professional",
+        img: "https://aptech-nigeria.com/wp-content/uploads/2023/04/accp-1-960x760.jpg",
+      },
+      {
+        name: "Advanced Diploma in Software Engineering",
+        img: "https://media.licdn.com/dms/image/v2/C4E1BAQH_XYPk6BwGqg/company-background_10000/company-background_10000/0/1636989488109/aptechajahcentre_cover?e=2147483647&v=beta&t=AdDWw5SkL8hah_uKTtaec7Nw5854gQZZlw9CdCIj93M",
+      },
+    ],
+  },
+  {
+    title: "Smart Professional Courses",
+    amount: 3,
+    image: "/images/educational/professional.jpg",
+    courses: [
+      {
+        name: "JAPA",
+        img: "https://aptech-nigeria.com/wp-content/uploads/2024/03/Aptech-JAPA-Courses-960x760.jpg",
+      },
+      {
+        name: "ACE – STC & Smart Pro",
+        img: "https://aptech-nigeria.com/wp-content/uploads/2023/04/accp-1-960x760.jpg",
+      },
+      {
+        name: "Certified Ethical Hacker",
+        img: "https://aptech-nigeria.com/wp-content/uploads/2022/02/CEH-1-960x760.jpg",
+      },
+    ],
+  },
+  {
+    title: "AI & Data Science",
+    amount: 1,
+    image: "/images/educational/data.jpg",
+    courses: [
+      {
+        name: "AI & Data Science",
+        img: "https://aptech-nigeria.com/wp-content/uploads/2023/05/artificial-intelligence-scaled-960x760.jpg",
+      },
+    ],
+  },
+  {
+    title: "Multimedia Specialist",
+    amount: 2,
+    image: "/images/educational/multimedia.jpg",
+    courses: [
+      {
+        name: "Advanced Diploma in Multimedia",
+        img: "https://aptech-nigeria.com/wp-content/uploads/2023/05/ADIM-COURSE-OUTLINE-960x760.jpg",
+      },
+      {
+        name: "Aptech Certified Network Specialist",
+        img: "https://aptech-nigeria.com/wp-content/uploads/2023/03/multimedia-1-960x760.jpg",
+      },
+    ],
+  },
+  {
+    title: "Networking",
+    amount: 1,
+    image: "/images/educational/networking.jpg",
+    courses: [
+      {
+        name: "Aptech Certified Network Specialist",
+        img: "https://aptech-nigeria.com/wp-content/uploads/2023/03/acns-960x760.jpg",
+      },
+    ],
+  },
+];
+
 export {
   navLinks,
   bannerImages,
@@ -368,4 +432,5 @@ export {
   partners,
   countup,
   leadership,
+  educational,
 };

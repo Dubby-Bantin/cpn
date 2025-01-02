@@ -1,6 +1,19 @@
+"use client";
+
 import { countup } from "@/lib/constants";
+import CountUp from "react-countup";
+import { useState } from "react";
+import { useInView } from "react-intersection-observer";
 
 const WhoWeAre = () => {
+  const [renderContent, setRenderContent] = useState(false);
+  const { ref } = useInView({
+    triggerOnce: false, // Trigger every time it enters/exits the viewport
+    onChange: (inView) => {
+      setRenderContent(inView); // Update state whenever the element enters/exits the viewport
+    },
+  });
+
   return (
     <div className="flex flex-wrap justify-center items-center py-10 container">
       <div className="left-section px-20 md:w-1/2">
@@ -25,14 +38,17 @@ const WhoWeAre = () => {
           We have over the years built a reputation for quality, consistency and
           professionalism. Our core business values and ability to command the
           confidence of our customers while working as a team has earned us a
-          respectable place in the IT industry.
+          respectable place in the IT industry.
         </p>
       </div>
-      <div className="right-section gap-x-10 grid grid-cols-2 md:w-1/2">
-        {countup.map(({ end, text, symbol }, i) => (
+      <div
+        ref={ref}
+        className="right-section gap-x-10 grid grid-cols-2 md:w-1/2"
+      >
+        {countup.map(({ end, text, symbol, duration }, i) => (
           <div key={i} className="flex flex-col items-center gap-5 py-10">
             <p className="font-semibold text-3xl text-darkBlue">
-              {end}
+              {renderContent && <CountUp end={end} duration={duration} />}
               {symbol}
             </p>
             <small className="w-[150px] text-center">{text}</small>

@@ -5,13 +5,14 @@ const LeftSection = () => (
   <div className="left-section md:w-1/2">
     <h1 className="mb-3 font-semibold text-3xl md:text-4xl">What We Offer</h1>
     <div className="bg-white rounded-sm w-20 h-2" />
-    <p className="py-10 text-sm">
-      We provide first-class contact center services from our ultramodern
-      facilities in Abuja, Kaduna and Lagos. Our services are tailored to
-      perfectly suit our clients’ needs and preferences, with a focus on service
-      quality, low-cost and scalable solutions.
+    <p className="py-7 text-sm">
+      Center Point Network Ltd. offers a comprehensive suite of managed IT
+      services designed to provide ongoing support and maintenance for IT
+      systems. These services are aimed at ensuring that the client&apos;s IT
+      infrastructure operates smoothly and efficiently, allowing them to focus
+      on their core business activities.
     </p>
-    <p className="py-10 text-sm">
+    <p className="py-7 text-sm">
       We are committed to meeting the information technology needs of our
       clients by providing first class and leading-edge technology that
       differentiates us from others. Our business paradigm begins with the
@@ -41,7 +42,8 @@ const RightSection = () => (
       We are fully committed to empowering women to develop the skills,
       knowledge and financial status necessary to elevate their standard of
       living. We also focus on recruiting economically and physically challenged
-      individuals through our job hub, bringing them into a competitive, career-focused workforce.
+      individuals through our job hub, bringing them into a competitive,
+      career-focused workforce.
     </p>
   </div>
 );
