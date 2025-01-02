@@ -51,7 +51,7 @@ const RightSection = () => (
 const WhatWeOffer = () => {
   return (
     <div className="relative flex justify-center items-center py-10 h-fit container">
-      <div className="flex flex-col justify-center items-center gap-10 bg-primary2 rounded-2xl px-10 py-10 w-[90%] h-fit text-white">
+      <div className="flex flex-col justify-center items-center gap-10 bg-primary2 rounded-2xl px-5 md:px-10 py-10 w-full md:w-[90%] h-fit text-white">
         <div className="flex flex-wrap justify-center items-center gap-20 px-3 py-10 w-full h-fit text-white">
           <LeftSection />
           <RightSection />
