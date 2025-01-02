@@ -25,11 +25,11 @@ const NavBar = () => {
         <Image
           src="/Asset 30CPN.png"
           alt="cpn_logo"
-          width={110} // Correct width
+          width={150} // Correct width
           height={50} // Correct height
           quality={100}
           priority
-          className="w-[110px]"
+          className="w-[150px]"
         />
       </Link>
 
@@ -79,11 +79,11 @@ const NavBar = () => {
               <Image
                 src="/Asset 30CPN.png"
                 alt="cpn_logo"
-                width={110} // Correct width
+                width={150} // Correct width
                 height={50} // Correct height
                 quality={100}
                 priority
-                className="w-[110px]"
+                className="w-[150px]"
               />
             </Link>
           </SheetTitle>
