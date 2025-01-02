@@ -3,6 +3,15 @@ import Image from "next/image";
 import WhatWeOffer from "@/components/about/what-we-offer";
 import JoinUs from "@/components/common/join-us";
 import Values from "@/components/about/values";
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "About Us",
+  description:
+    "Learn more about how we specialize in delivering cutting-edge IT and network solutions tailored to empower businesses.",
+  openGraph: {
+    url: "https://www.cpnltd.com.ng/about",
+  },
+};
 const About = () => {
   return (
     <div className="w-full">

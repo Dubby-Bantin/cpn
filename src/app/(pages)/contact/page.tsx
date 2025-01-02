@@ -6,11 +6,10 @@ import type { Metadata } from "next";
 import ContactForm from "@/components/contact/contactForm";
 
 export const metadata: Metadata = {
-  title: "About Us",
-  description:
-    "Learn more about how we specialize in delivering cutting-edge IT and network solutions tailored to empower businesses.",
+  title: "Contact Us",
+  description: "Send Your Question.",
   openGraph: {
-    url: "https://www.cpnltd.com.ng/about",
+    url: "https://www.cpnltd.com.ng/contact",
   },
 };
 
