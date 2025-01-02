@@ -14,6 +14,16 @@ import { BsBarChartLine } from "react-icons/bs";
 import { FaChalkboardUser } from "react-icons/fa6";
 import { GoPerson } from "react-icons/go";
 import Image from "next/image";
+import type { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Services",
+  description:
+    "At Center Point Network, we have deep vertical expertise and a unique understanding of industry-specific needs.",
+  openGraph: {
+    url: "https://www.cpnltd.com.ng/services/",
+  },
+};
+
 const Services = () => {
   return (
     <div className="flex flex-col gap-20 md:px-20 py-10">
@@ -23,8 +33,8 @@ const Services = () => {
             What We Can Provide <span className="text-primary2">For You</span>{" "}
           </h1>
           <p className="">
-            At Center Point Network, we have deep vertical expertise and a unique
-            understanding of industry-specific needs.
+            At Center Point Network, we have deep vertical expertise and a
+            unique understanding of industry-specific needs.
           </p>
 
           <Button variant={"outline"} size={"lg"}>
@@ -56,7 +66,7 @@ const Services = () => {
               </li>
               <li>Small business and start-up computing need</li>
             </ul>
-            <div className="flex gap-4 sm:flex-row flex-col items-center">
+            <div className="flex sm:flex-row flex-col items-center gap-4">
               <div className="flex flex-col items-center w-96 text-center">
                 <MdOutlineShowChart className="mb-3 text-2xl" />
                 <p className="mb-3 text-primary2 text-xl">
@@ -82,8 +92,8 @@ const Services = () => {
             </div>
           </div>
           <Image
-          height={500}
-          width={500}
+            height={500}
+            width={500}
             src={
               "https://cpms.com.ng/wp-content/uploads/2020/09/33801-2048x2048.jpg"
             }
@@ -96,8 +106,8 @@ const Services = () => {
           <div className="flex sm:flex-row flex-col justify-center items-center gap-40 text-center sm:text-left">
             <div>
               <Image
-              height={500}
-              width={500}
+                height={500}
+                width={500}
                 src={
                   "https://cpms.com.ng/wp-content/uploads/2020/09/2650106-2048x1269.jpg"
                 }
@@ -146,8 +156,8 @@ const Services = () => {
               </p>
             </div>
             <Image
-            height={500}
-            width={500}
+              height={500}
+              width={500}
               src={
                 "https://cpms.com.ng/wp-content/uploads/2020/09/38451-2048x2048.jpg"
               }
@@ -159,8 +169,8 @@ const Services = () => {
         <div className="flex justify-center gap-40 bg-primaryBlue/10 mb-10 py-20 p-5">
           <div className="flex sm:flex-row flex-col justify-center items-start gap-20 w-[70rem]">
             <Image
-            height={500}
-            width={500}
+              height={500}
+              width={500}
               src={
                 "https://cpms.com.ng/wp-content/uploads/2020/09/38451-2048x2048.jpg"
               }
@@ -179,8 +189,8 @@ const Services = () => {
                   an analogue video surveillance system.
                 </p>
                 <p>
-                  Center Point Network provides a complete solution of
-                  IP cameras, easy to access, secure storage and is a strong and
+                  Center Point Network provides a complete solution of IP
+                  cameras, easy to access, secure storage and is a strong and
                   healthy network switching. We shall provide switches that
                   offer what is needed for a robust network.
                 </p>
@@ -216,8 +226,8 @@ const Services = () => {
               </p>
             </div>
             <Image
-            height={500}
-            width={500}
+              height={500}
+              width={500}
               src={
                 "https://cpms.com.ng/wp-content/uploads/2020/09/3315-480x291.jpg"
               }
@@ -262,8 +272,8 @@ const Services = () => {
               </div>
             </div>
             <Image
-            height={500}
-            width={500}
+              height={500}
+              width={500}
               src={
                 "https://cpms.com.ng/wp-content/uploads/2020/09/19265-480x348.jpg"
               }
@@ -275,8 +285,8 @@ const Services = () => {
         <div className="flex justify-center items-start gap-40 bg-primaryBlue/10 mb-40 p-5">
           <div className="flex sm:flex-row flex-col items-center gap-10 w-[75rem]">
             <Image
-            height={500}
-            width={500}
+              height={500}
+              width={500}
               src={
                 "https://cpms.com.ng/wp-content/uploads/2020/09/18941-480x361.jpg"
               }
@@ -345,8 +355,8 @@ const Services = () => {
               </div>
             </div>
             <Image
-            height={500}
-            width={500}
+              height={500}
+              width={500}
               src={
                 "https://cpms.com.ng/wp-content/uploads/2020/09/Capture6-e1600421594258.jpg"
               }
@@ -358,8 +368,8 @@ const Services = () => {
         <div className="flex justify-center gap-40 bg-primaryBlue/20 mb-10 py-20 p-5">
           <div className="flex sm:flex-row flex-col justify-center sm:items-start gap-20 w-[70rem]">
             <Image
-            height={500}
-            width={500}
+              height={500}
+              width={500}
               src={
                 "https://cpms.com.ng/wp-content/uploads/2020/09/5514-480x300.jpg"
               }
@@ -378,12 +388,12 @@ const Services = () => {
                   few, whether it’s maximizing the productivity of your
                   employees or improving the quality and capabilities of company
                   personnel, all our interventions have one common DNA i.e.
-                  impacting business outcome. Over the years, Center Point Network has championed the art of impacting business
-                  of global clients across multiple sectors through its
-                  customized IT security training programs. Our corporate
-                  training programs provide holistic solutions related to
-                  networking and security and we are committed to a philosophy
-                  of excellence.
+                  impacting business outcome. Over the years, Center Point
+                  Network has championed the art of impacting business of global
+                  clients across multiple sectors through its customized IT
+                  security training programs. Our corporate training programs
+                  provide holistic solutions related to networking and security
+                  and we are committed to a philosophy of excellence.
                 </p>
               </div>
             </div>

@@ -10,7 +10,16 @@ import {
 } from "@/components/ui/dialog";
 import { leadership } from "@/lib/constants";
 import Image from "next/image";
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Leadership",
+  description:
+    "At Center Point Network Ltd., our leadership team is the driving force behind our commitment to innovation, excellence, and client satisfaction.",
+  openGraph: {
+    url: "https://www.cpnltd.com.ng/leadership/",
+  },
+};
 export default function Leadership() {
   return (
     <div>
