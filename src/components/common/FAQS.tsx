@@ -11,8 +11,8 @@ const FAQSection = ({ start, end }: { start?: number; end?: number }) => {
     setOpenIndex(openIndex === index ? null : index);
 
   return (
-    <section id="faqs" className="w-full h-full">
-      <div className="space-y-4 mx-auto md:max-w-2xl">
+    <section id="faqs" className="w-full h-full px-4 md:px-0">
+      <div className="space-y-4 md:mx-auto md:max-w-2xl">
         {services.slice(start, end).map((faq, i) => (
           <FAQItem
             key={i}

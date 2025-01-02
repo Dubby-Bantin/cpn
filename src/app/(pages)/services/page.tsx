@@ -15,6 +15,7 @@ import { FaChalkboardUser } from "react-icons/fa6";
 import { GoPerson } from "react-icons/go";
 import Image from "next/image";
 import type { Metadata } from "next";
+import Link from "next/link";
 export const metadata: Metadata = {
   title: "Services",
   description:
@@ -38,9 +39,11 @@ const Services = () => {
               unique understanding of industry-specific needs.
             </p>
 
-            <Button variant={"outline"} size={"lg"}>
-              Contact us
-            </Button>
+            <Link href="/contact">
+              <Button variant={"outline"} size={"lg"}>
+                Contact us
+              </Button>
+            </Link>
           </div>
           <FAQSection />
         </div>
