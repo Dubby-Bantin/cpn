@@ -29,8 +29,8 @@ const Services = () => {
   return (
     <div>
       <div className="flex flex-col gap-20 md:px-10 py-10">
-        <div className="flex md:flex-row flex-col justify-between items-start px-10 md:px-0 w-full h-full">
-          <div className="flex flex-col items-start gap-5 py-20">
+        <div className="flex md:flex-row flex-col justify-between items-start w-full h-full">
+          <div className="flex flex-col items-start gap-5 py-20 px-10 md:px-0">
             <h1 className="font-semibold text-5xl">
               What We Can Provide <span className="text-primary2">For You</span>{" "}
             </h1>
