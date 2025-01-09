@@ -328,7 +328,7 @@ const leadership: Leadership[] = [
   {
     name: "URIEL UDO-OBIA C.",
     title: "Kubwa Center Manager",
-    image: "",
+    image: "/images/leadership/kubwa.jpg",
     bio: "Uriel is a dedicated Center Manager at the Kubwa branch in Abuja, bringing a wealth of experience in tech education training and business development in the field of Information Technology. With over six years of professional expertise at Aptech Computer Education, Uriel has honed his skills in delivering world-class IT training programs and fostering growth in the educational sector. His proficiency lies in designing innovative learning solutions, managing IT training projects, and mentoring individuals to achieve their professional goals. Uriel’s extensive knowledge of Aptech methodologies and certifications enables him to create impactful programs that meet global industry standards, equipping learners with skills that align with the demands of the digital economy. Uriel’s leadership at the Kubwa center is driven by his commitment to excellence, his focus on empowering learners, and his strategic approach to business development. His dedication to advancing IT education has positioned the center as a hub for innovation and skill-building in the Abuja region.",
   },
 ];
