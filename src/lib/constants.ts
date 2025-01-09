@@ -316,7 +316,7 @@ const leadership: Leadership[] = [
   {
     name: "STANLEY DURUEKE",
     title: "Owerri Center Manager",
-    image: "",
+    image: "/images/leadership/owerri.jpg",
     bio: "Stanley is a dynamic Center Manager at the Owerri branch, renowned for his expertise in tech education training and business development in IT. With a solid foundation in data management and data visualization, Stanley has amassed over 8 years of hands-on experience, enabling him to deliver innovative solutions and drive organizational growth. In his role, Stanley combines his deep understanding of technology with strategic business insights to oversee the center's operations, enhance training programs, and support the professional development of learners. His proficiency in transforming complex data into actionable insights empowers organizations to make informed decisions, setting him apart as a leader in the IT industry. Stanley's commitment to excellence, coupled with his passion for education and innovation, makes him a cornerstone of success at the Owerri center. His leadership ensures that both clients and trainees achieve their goals in the fast-paced world of technology.",
   },
   {
