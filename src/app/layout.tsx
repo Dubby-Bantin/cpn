@@ -14,24 +14,34 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.cpnltd.com.ng/"),
-  title: { default: "Center Point Network", template: " %s | Center-point" },
+  title: { default: "Center Point Network", template: " %s | Center Point Network" },
   description:
-    "At Center Point Network Ltd., we specialize in delivering cutting-edge IT and network solutions tailored to empower businesses.",
+    "Center Point Network Ltd. delivers cutting-edge IT and network solutions tailored to empower businesses through innovative technology.",
   keywords: [
-    "It-solutions",
-    "CenterPoint Network",
-    "Information",
-    "Technology",
-    "Corporate Trainings",
-    "Web Solutions",
+    "IT solutions",
+    "Center Point Network",
+    "Information Technology",
+    "Corporate Training",
+    "Web Development",
     "Consultancy Services",
+    "Networking",
+    "Business Solutions",
+    "IT Consultancy",
   ],
   openGraph: {
     description:
-      "At Center Point Network Ltd., we specialize in delivering cutting-edge IT and network solutions tailored to empower businesses.",
+      "Empowering businesses with cutting-edge IT and network solutions tailored to meet unique needs.",
     url: "https://www.cpnltd.com.ng/",
     type: "website",
-    siteName: "Cpn",
+    siteName: "Center Point Network",
+    images: [
+      {
+        url: "https://www.cpnltd.com.ng/Asset 30CPN.png", // Add an OpenGraph image
+        width: 1200,
+        height: 630,
+        alt: "Center Point Network - Empowering Businesses",
+      },
+    ],
   },
 };
 

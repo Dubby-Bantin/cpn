@@ -3,7 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { Menu } from "lucide-react";
 import { navLinks } from "@/lib/constants";
-import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "../ui/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetPrimitive,
+  SheetTitle,
+  SheetTrigger,
+} from "../ui/sheet";
 import { Button } from "../ui/button";
 import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "motion/react";
@@ -19,11 +25,11 @@ const NavBar = () => {
         <Image
           src="/Asset 30CPN.png"
           alt="cpn_logo"
-          width={110} // Correct width
+          width={150} // Correct width
           height={50} // Correct height
           quality={100}
           priority
-          className="w-[110px]"
+          className="w-[150px]"
         />
       </Link>
 
@@ -73,11 +79,11 @@ const NavBar = () => {
               <Image
                 src="/Asset 30CPN.png"
                 alt="cpn_logo"
-                width={110} // Correct width
+                width={150} // Correct width
                 height={50} // Correct height
                 quality={100}
                 priority
-                className="w-[110px]"
+                className="w-[150px]"
               />
             </Link>
           </SheetTitle>
@@ -86,10 +92,11 @@ const NavBar = () => {
             <Link
               key={path}
               href={`${path}`}
-              className="flex items-center gap-2 py-2 rounded-xl text-sm transition-colors duration-200"
             >
-              <Icon className="group-hover:scale-110 w-3 h-3 transition-all" />
-              {name}
+              <SheetPrimitive.Close className="flex items-center gap-2 py-2 rounded-xl text-sm transition-colors duration-200">
+                <Icon className="group-hover:scale-110 w-3 h-3 transition-all" />
+                {name}
+              </SheetPrimitive.Close>
             </Link>
           ))}
         </SheetContent>

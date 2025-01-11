@@ -31,7 +31,7 @@ const About = () => {
         </div>
 
         <div className="relative flex justify-center items-center gap-6">
-          <div className="relative top-20 border-4 border-primary2 shadow-lg rounded-full w-[15rem] h-[15rem]">
+          <div className="relative top-20 border-4 border-primary2 shadow-lg rounded-full w-[12rem] md:w-[15rem] h-[12rem] md:h-[15rem]">
             <Image
               src="https://images.pexels.com/photos/955395/pexels-photo-955395.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Team collaboration at work"
@@ -39,7 +39,7 @@ const About = () => {
               className="rounded-full object-cover"
             />
           </div>
-          <div className="relative -top-10 border-4 border-primary2 shadow-lg rounded-full w-[15rem] h-[15rem]">
+          <div className="relative -top-10 border-4 border-primary2 shadow-lg rounded-full w-[12rem] md:w-[15rem] h-[12rem] md:h-[15rem]">
             <Image
               src="https://images.pexels.com/photos/14314638/pexels-photo-14314638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt="Team discussion in progress"

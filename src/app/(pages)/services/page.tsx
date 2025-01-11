@@ -15,6 +15,7 @@ import { FaChalkboardUser } from "react-icons/fa6";
 import { GoPerson } from "react-icons/go";
 import Image from "next/image";
 import type { Metadata } from "next";
+import Link from "next/link";
 export const metadata: Metadata = {
   title: "Services",
   description:
@@ -28,8 +29,8 @@ const Services = () => {
   return (
     <div>
       <div className="flex flex-col gap-20 md:px-10 py-10">
-        <div className="flex md:flex-row flex-col justify-between items-start px-10 md:px-0 w-full h-full">
-          <div className="flex flex-col items-start gap-5 py-20">
+        <div className="flex md:flex-row flex-col justify-between items-start w-full h-full">
+          <div className="flex flex-col items-start gap-5 py-20 px-10 md:px-0">
             <h1 className="font-semibold text-5xl">
               What We Can Provide <span className="text-primary2">For You</span>{" "}
             </h1>
@@ -38,9 +39,11 @@ const Services = () => {
               unique understanding of industry-specific needs.
             </p>
 
-            <Button variant={"outline"} size={"lg"}>
-              Contact us
-            </Button>
+            <Link href="/contact">
+              <Button variant={"outline"} size={"lg"}>
+                Contact us
+              </Button>
+            </Link>
           </div>
           <FAQSection />
         </div>
@@ -48,7 +51,7 @@ const Services = () => {
         <section className="overflow-hidden">
           <div className="flex sm:flex-row flex-col justify-center items-center">
             <div className="p-5 text-center sm:text-left">
-              <h1 className="mb-6 font-semibold text-3xl text-center text-primary2 lg:text-4xl lg:text-left lg:leading-[4rem]">
+              <h1 className="mb-6 font-semibold text-2xl text-center text-primary2 lg:text-4xl lg:text-left lg:leading-[4rem]">
                 Enterprise Infrastructure
               </h1>
               <div className="border-primary2 mb-2 border w-28"></div>
@@ -118,7 +121,7 @@ const Services = () => {
                 />
               </div>
               <div className="">
-                <h1 className="mb-6 font-semibold text-3xl text-center text-primary2 lg:text-4xl lg:text-left lg:leading-[4rem]">
+                <h1 className="mb-6 font-semibold text-2xl text-center text-primary2 lg:text-4xl lg:text-left lg:leading-[4rem]">
                   Enterprise Infrastructure
                 </h1>
                 <div className="border-primary2 mb-2 border w-28"></div>
@@ -143,7 +146,7 @@ const Services = () => {
           <div className="flex justify-center items-start gap-40 mb-10 p-5">
             <div className="flex sm:flex-row flex-col items-center w-[70rem]">
               <div className="relative -top-16">
-                <h1 className="my-10 mb-6 font-semibold text-3xl text-center text-primary2 lg:text-4xl lg:text-left lg:leading-[4rem]">
+                <h1 className="my-10 mb-6 font-semibold text-2xl text-center text-primary2 lg:text-4xl lg:text-left lg:leading-[4rem]">
                   Data Center Solution
                 </h1>
                 <div className="border-primary2 mb-2 border w-28"></div>
@@ -181,7 +184,7 @@ const Services = () => {
                 className="h-[15rem] object-contain"
               />
               <div className="relative -top-25">
-                <h1 className="mb-6 font-semibold text-3xl text-center text-primary2 lg:text-4xl lg:text-left lg:leading-[4rem]">
+                <h1 className="mb-6 font-semibold text-2xl text-center text-primary2 lg:text-4xl lg:text-left lg:leading-[4rem]">
                   IP Surveillance
                 </h1>
                 <div className="border-primary2 mb-2 border w-28"></div>
@@ -209,7 +212,7 @@ const Services = () => {
           <div className="flex justify-center items-start gap-40 mb-10 p-5">
             <div className="flex sm:flex-row flex-col items-center w-[70rem]">
               <div className="relative">
-                <h1 className="mb-6 font-semibold text-3xl text-center text-primary2 lg:text-4xl lg:text-left lg:leading-[4rem]">
+                <h1 className="mb-6 font-semibold text-2xl text-center text-primary2 lg:text-4xl lg:text-left lg:leading-[4rem]">
                   Cloud Computing
                 </h1>
                 <div className="border-primary2 mb-2 border w-28"></div>
@@ -243,33 +246,33 @@ const Services = () => {
           <div className="flex justify-center items-start gap-40 mb-40 p-5">
             <div className="flex sm:flex-row flex-col items-center gap-10 w-[75rem]">
               <div className="relative">
-                <h1 className="mb-6 font-semibold text-3xl text-center text-primary2 lg:text-4xl lg:text-left lg:leading-[4rem]">
+                <h1 className="mb-6 font-semibold text-2xl text-center text-primary2 lg:text-4xl lg:text-left lg:leading-[4rem]">
                   Business Ready Solutions
                 </h1>
                 <div className="border-primary2 mb-5 border w-28"></div>
 
                 <div className="gap-20 grid grid-cols-3">
-                  <div className="flex flex-col justify-center items-center font-medium text-center text-lg">
+                  <div className="flex flex-col justify-center items-center font-medium text-center text-sm md:text-lg">
                     <BsBarChartLine className="mb-7 text-4xl text-primary2" />
                     E-Commerce Solutions
                   </div>
-                  <div className="flex flex-col justify-center items-center font-medium text-center text-lg">
+                  <div className="flex flex-col justify-center items-center font-medium text-center text-sm md:text-lg">
                     <FaFolderOpen className="mb-7 text-4xl text-primary2" />
                     ERP Solutions
                   </div>
-                  <div className="flex flex-col justify-center items-center font-medium text-center text-lg">
+                  <div className="flex flex-col justify-center items-center font-medium text-center text-sm md:text-lg">
                     <FaChalkboardUser className="mb-7 text-4xl text-primary2" />
                     Management Software
                   </div>
-                  <div className="flex flex-col justify-center items-center font-medium text-center text-lg">
+                  <div className="flex flex-col justify-center items-center font-medium text-center text-sm md:text-lg">
                     <GoPerson className="mb-7 text-4xl text-primary2" />
                     CRM Solutions
                   </div>
-                  <div className="flex flex-col justify-center items-center font-medium text-center text-lg">
+                  <div className="flex flex-col justify-center items-center font-medium text-center text-sm md:text-lg">
                     <GiBookmark className="mb-7 text-4xl text-primary2" />
                     Content Management System
                   </div>
-                  <div className="flex flex-col justify-center items-center font-medium text-center text-lg">
+                  <div className="flex flex-col justify-center items-center font-medium text-center text-sm md:text-lg">
                     <FaPeopleCarry className="mb-7 text-4xl text-primary2" />
                     Corporate Training Solutions
                   </div>
@@ -298,37 +301,37 @@ const Services = () => {
                 className="h-[20rem] object-contain"
               />
               <div className="relative">
-                <h1 className="mb-6 font-semibold text-3xl text-center text-primary2 lg:text-4xl lg:text-left lg:leading-[4rem]">
+                <h1 className="mb-6 font-semibold text-2xl text-center text-primary2 lg:text-4xl lg:text-left lg:leading-[4rem]">
                   Business Ready Solutions
                 </h1>
                 <div className="border-primary2 mb-5 border w-28"></div>
 
                 <div className="gap-20 grid grid-cols-3">
-                  <div className="flex flex-col justify-center items-center font-medium text-center text-lg">
+                  <div className="flex flex-col justify-center items-center font-medium text-center text-sm md:text-lg">
                     <LiaToolsSolid className="mb-7 text-4xl text-primary2" />
                     Server Management, Monitoring and Security
                   </div>
-                  <div className="flex flex-col justify-center items-center font-medium text-center text-lg">
+                  <div className="flex flex-col justify-center items-center font-medium text-center text-sm md:text-lg">
                     <FaLock className="mb-7 text-4xl text-primary2" />
                     Firewall Security Solution
                   </div>
-                  <div className="flex flex-col justify-center items-center font-medium text-center text-lg">
+                  <div className="flex flex-col justify-center items-center font-medium text-center text-sm md:text-lg">
                     <LiaKeySolid className="mb-7 text-4xl text-primary2" />
                     Penetration Testing
                   </div>
-                  <div className="flex flex-col justify-center items-center font-medium text-center text-lg">
+                  <div className="flex flex-col justify-center items-center font-medium text-center text-sm md:text-lg">
                     <CiBasketball className="mb-7 text-4xl text-primary2" />
                     Web Service Assessment
                   </div>
-                  <div className="flex flex-col justify-center items-center font-medium text-center text-lg">
+                  <div className="flex flex-col justify-center items-center font-medium text-center text-sm md:text-lg">
                     <PiFileMagnifyingGlassThin className="mb-7 text-4xl text-primary2" />
                     Source Code Audit
                   </div>
-                  <div className="flex flex-col justify-center items-center font-medium text-center text-lg">
+                  <div className="flex flex-col justify-center items-center font-medium text-center text-sm md:text-lg">
                     <PiDeviceRotateThin className="mb-7 text-4xl text-primary2" />
                     Security Architecture Review
                   </div>
-                  <div className="flex flex-col justify-center items-center font-medium text-center text-lg">
+                  <div className="flex flex-col justify-center items-center font-medium text-center text-sm md:text-lg">
                     <IoBugSharp className="mb-7 text-4xl text-primary2" />
                     Vulnerability Assessment
                   </div>
@@ -339,7 +342,7 @@ const Services = () => {
           <div className="flex justify-center gap-40 mb-10 py-20 p-5">
             <div className="flex sm:flex-row flex-col justify-center sm:items-start gap-20 w-[70rem]">
               <div className="relative -top-25">
-                <h1 className="mb-6 font-semibold text-3xl text-center text-primary2 lg:text-4xl lg:text-left lg:leading-[4rem]">
+                <h1 className="mb-6 font-semibold text-2xl text-center text-primary2 lg:text-4xl lg:text-left lg:leading-[4rem]">
                   IT Power Solutions
                 </h1>
                 <div className="border-primary2 mb-2 border w-28"></div>
@@ -381,7 +384,7 @@ const Services = () => {
                 className="h-[15rem] object-contain"
               />
               <div className="relative -top-25">
-                <h1 className="mb-6 font-semibold text-3xl text-center text-primary2 lg:text-4xl lg:text-left lg:leading-[4rem]">
+                <h1 className="mb-6 font-semibold text-2xl text-center text-primary2 lg:text-4xl lg:text-left lg:leading-[4rem]">
                   Corporate Training
                 </h1>
                 <div className="border-primary2 mb-2 border w-28"></div>

@@ -11,7 +11,7 @@ const Values = () => {
           </h1>
           <div className="bg-darkBlue rounded-sm w-20 h-2" />
         </div>
-        <div className="gap-10 grid grid-cols-1 md:grid-cols-2 p-20 w-full">
+        <div className="gap-10 grid grid-cols-1 md:grid-cols-2 px-8 py-8 md:px-20 md:py-20 w-full">
           {values.map(({ Icon, title, body }, i) => (
             <div
               className="flex flex-col gap-5 shadow-md p-10 rounded-md"

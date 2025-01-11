@@ -65,6 +65,7 @@ export default function Educational() {
                     height={500}
                     src={image}
                     alt="name"
+                    quality={100}
                     className="object-top rounded-t-md w-full h-[210px] object-cover"
                   />
                   <div className="flex flex-col gap-2 p-3">
@@ -89,6 +90,7 @@ export default function Educational() {
                         height={100}
                         src={img}
                         alt="name"
+                        quality={100}
                         className="object-top rounded-t-md w-full h-[200px] md:h-[150px] object-cover"
                       />
                       <p className="p-3 text-[14px]">{name}</p>
