@@ -31,21 +31,6 @@ export const metadata: Metadata = {
     "Business Solutions",
     "IT Consultancy",
   ],
-  openGraph: {
-    description:
-      "Empowering businesses with cutting-edge IT and network solutions tailored to meet unique needs.",
-    url: "https://www.cpnltd.com.ng/",
-    type: "website",
-    siteName: "Center Point Network",
-    images: [
-      {
-        url: "https://www.cpnltd.com.ng/Asset 30CPN.png", // Add an OpenGraph image
-        width: 1200,
-        height: 630,
-        alt: "Center Point Network - Empowering Businesses",
-      },
-    ],
-  },
   verification: {
     google: "9zEAtYsvVRTWaHeAduENEchL_nmP-4fT3T5PSk701CM",
   },
