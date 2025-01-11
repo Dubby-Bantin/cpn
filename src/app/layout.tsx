@@ -14,7 +14,10 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.cpnltd.com.ng/"),
-  title: { default: "Center Point Network", template: " %s | Center Point Network" },
+  title: {
+    default: "Center Point Network",
+    template: " %s | Center Point Network",
+  },
   description:
     "Center Point Network Ltd. delivers cutting-edge IT and network solutions tailored to empower businesses through innovative technology.",
   keywords: [
@@ -42,6 +45,9 @@ export const metadata: Metadata = {
         alt: "Center Point Network - Empowering Businesses",
       },
     ],
+  },
+  verification: {
+    google: "9zEAtYsvVRTWaHeAduENEchL_nmP-4fT3T5PSk701CM",
   },
 };
 
