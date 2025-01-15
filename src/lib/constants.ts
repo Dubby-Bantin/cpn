@@ -302,10 +302,10 @@ const leadership: Leadership[] = [
     bio: "Mercy Michael is an Accounting professional with over 5 years of experience. She holds a Bachelor’s Degree in Accounting from National Open University of Nigeria. She has worked for different organizations in different sectors of the economy in Abuja. Mercy is currently the Regional Accountant at Center Point Network limited and currently at the final stage of the Institute of Chartered Accountants of Nigeria professional examination.",
   },
   {
-    name: "DORATHY I. MBANEFO",
+    name: "Godwin C. Ewelike",
     title: "Enugu Center Manager",
     image: "/images/leadership/enugu.jpg",
-    bio: "Dorathy is a highly skilled Sales IT Center Manager with over nine years of experience in driving sales growth, managing IT operations, and delivering exceptional customer experiences. Her expertise lies in blending technology with strategic sales initiatives to achieve organizational objectives and enhance operational efficiency. With a proven track record of managing high-performing teams, Dorathy excels in creating and executing sales strategies, optimizing IT systems for sales operations, and fostering strong client relationships.",
+    bio: "Godwin C. Ewelike is a distinguished  management professional, renowned for his innovative approach, exceptional leadership skills, and profound knowledge of computer science. With a career spanning several years, Godwin has established himself as a respected expert in the education sector.",
   },
   {
     name: "HARRY EBIA",
