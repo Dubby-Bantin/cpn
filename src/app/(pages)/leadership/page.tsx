@@ -86,7 +86,7 @@ export default function Leadership() {
                             : "/images/leadership/user.avif"
                         }
                         alt="name"
-                        className="object-top rounded-full w-[150px] h-[150px] md:w-[200px] md:h-[200px] object-cover"
+                        className={`${pos ? pos : "object-top"} rounded-full w-[150px] h-[150px] md:w-[200px] md:h-[200px] object-cover`}
                       />
                       <h1 className="font-semibold text-[15px]">
                         {name.toLocaleUpperCase()}
