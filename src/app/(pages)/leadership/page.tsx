@@ -49,7 +49,7 @@ export default function Leadership() {
       </div>
       <div className="w-full flex justify-center py-10">
         <div className="place-items-center gap-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-[90%]">
-          {leadership.map(({ name, title, message, image, bio }, i) => (
+          {leadership.map(({ name, title, message, image, bio, pos }, i) => (
             <Dialog key={i}>
               <div className="flex flex-col justify-center items-center gap-3">
                 <Image
@@ -59,7 +59,7 @@ export default function Leadership() {
                     image.length > 0 ? image : "/images/leadership/user.avif"
                   }
                   alt="name"
-                  className="object-top rounded-full w-[200px] h-[200px] object-cover"
+                  className={`${pos ? pos : "object-top"} rounded-full w-[200px] h-[200px] object-cover`}
                 />
                 <h1 className="font-semibold text-[15px]">
                   {name.toLocaleUpperCase()}

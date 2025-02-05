@@ -51,6 +51,7 @@ declare type Leadership = {
   name: string;
   title: string;
   bio: string;
+  pos?: string;
   image: string;
   message?: string;
 }

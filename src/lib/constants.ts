@@ -322,6 +322,7 @@ const leadership: Leadership[] = [
   {
     name: "Ugochukwu Chigaemecha",
     title: "Umuahia Center Manager",
+    pos: "object-center",
     image: "/images/leadership/umuahia.jpg",
     bio: "Ugochukwu is an accomplished Center Manager at the Umuahia branch, with a strong background in tech education training and business development in IT. With more than six years of expertise in computer networking, ethical hacking, and CompTIA certifications, he has established himself as a versatile leader in the technology sector. In his role, Ugochukwu combines his technical expertise with a passion for education to design and deliver impactful training programs. His in-depth knowledge of ethical hacking and network security ensures that trainees are equipped with cutting-edge skills to thrive in the rapidly evolving IT landscape. Additionally, his proficiency in CompTIA certifications adds value to learners and organizations alike, enhancing their technical capabilities and career prospects. Ugochukwu’s leadership at the Umuahia center is defined by his strategic vision, commitment to excellence, and drive to foster innovation. His ability to balance technical acumen with business development skills has been instrumental in the center’s growth and success.",
   },
