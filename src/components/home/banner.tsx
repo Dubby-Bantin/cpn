@@ -47,7 +47,7 @@ export default function Banner() {
                 className="relative w-full h-full"
               >
                 <Image
-                  src="/images/WhatsApp Image 2024-12-10 at 06.58.40_2434b008.jpg"
+                  src="/images/Firefly_Gemini Flash.png"
                   alt=""
                   fill
                   className="rounded-xl object-cover"
