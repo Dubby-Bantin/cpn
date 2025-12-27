@@ -27,6 +27,8 @@ const nextConfig = withVideos({
       { protocol: "https", hostname: "media.licdn.com" },
     ],
   },
+  turbopack: {
+  }
 });
 
 export default nextConfig;
